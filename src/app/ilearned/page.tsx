@@ -25,7 +25,7 @@ const page = () => {
                 </thead>
                 <tbody>
                     {
-                        words.map(item =>(
+                        words.map((item:any) =>(
                            <tr key={item.id}>
                                 <td>{item.ENG}</td>
                                 <td>{item.TR}</td>

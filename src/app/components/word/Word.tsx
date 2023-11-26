@@ -12,7 +12,7 @@ const Word = ({ wordList }: { wordList: any }) => {
         const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user")|| '[]');
 
         if (userLocalStorageWordList !== null) {
-            let newvalue = wordList.filter(m => !userLocalStorageWordList.some(x => x.id === m.id));
+            let newvalue = wordList.filter((m:any) => !userLocalStorageWordList.some((x :any)=> x.id === m.id));
             setWords(newvalue);
 
 
@@ -31,13 +31,13 @@ const Word = ({ wordList }: { wordList: any }) => {
         }
     }
 
-    const handleLearned = (value: number) => {
+    const handleLearned = (value:any) => {
         //let randomUser = `User-${Math.round(Math.random() * 17976931348623)}`;
 
         if (localStorage.getItem('word-user')) {
-            const userWordList = JSON.parse(localStorage.getItem('word-user'));
+            const userWordList =  JSON.parse(localStorage.getItem("word-user")|| '[]');
             localStorage.removeItem('word-user')
-            let exist = userWordList.find(item => item.id == value.id)
+            let exist = userWordList.find((item:any) => item.id === value.id)
             exist || userWordList.push({ id: value.id, ENG: value.ENG, TR: value.TR, categoryId: value.categoryId });
             localStorage.setItem('word-user', JSON.stringify(userWordList))
         } else {
