@@ -23,10 +23,10 @@ const Word = ({ wordList }: { wordList: any }) => {
 
                 <div className="bg-dark-subtle">
                     <div className="px-6 py-4">
-                        <div className="fs-6">{item?.ENG}</div>
-                        <div className={``}>{hidden && item?.TR}.</div>
+                        <div className="fs-1 text-center">{item?.ENG}</div>
+                        <div className="fs-1 text-center">{hidden && item?.TR}.</div>
                     </div>
-                    <p className="text-center	 ">
+                    <p className="text-center">
                         Total Word Count: {wordList.length}
                     </p>
                     <div className="d-flex justify-content-center gap-3">
