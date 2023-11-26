@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Button from '../components/button/Button';
 
 const page = () => {
-    let wordList = data.words;
+    let wordList:any = data.words;
     const [hidden, setHidden] = useState<boolean>(false);
     const [nextIndex, setNextIndex] = useState<number>(0);
     const [words, setWords] = useState([]);
