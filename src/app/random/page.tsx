@@ -1,8 +1,11 @@
 "use client"
-import React, { useState, useEffect } from 'react'
-import Button from '../button/Button'
+import Word from '../components/word/Word'
+import data from '../../data/db.json'
+import { useEffect, useState } from 'react';
+import Button from '../components/button/Button';
 
-const Word = ({ wordList }: { wordList: any }) => {
+const page = () => {
+    let wordList = data.words;
     const [hidden, setHidden] = useState<boolean>(false);
     const [nextIndex, setNextIndex] = useState<number>(0);
     const [words, setWords] = useState([]);
@@ -14,18 +17,15 @@ const Word = ({ wordList }: { wordList: any }) => {
         if (userLocalStorageWordList !== null) {
             let newvalue = wordList.filter(m => !userLocalStorageWordList.some(x => x.id === m.id));
             setWords(newvalue);
-
-
         } else {
             setWords(wordList);
         }
-
     }, [nextIndex])
 
     const handleNext = () => {
         setHidden(false);
         if (nextIndex < wordList.length - 1)
-            setNextIndex(prev => prev + 1);
+            setNextIndex(Math.round(Math.random()*3845));
         else {
             alert("The End");
         }
@@ -46,7 +46,6 @@ const Word = ({ wordList }: { wordList: any }) => {
     }
 
     let item = words[nextIndex];
-
     return (
         <div className='container-fluid mt-2'>
             <div className="row">
@@ -74,4 +73,4 @@ const Word = ({ wordList }: { wordList: any }) => {
     )
 }
 
-export default Word
+export default page
