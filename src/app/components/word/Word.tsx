@@ -45,7 +45,7 @@ const Word = ({ wordList }: { wordList: any }) => {
         }
     }
 
-    let item = words[nextIndex];
+    let item:any = words[nextIndex];
 
     return (
         <div className='container-fluid mt-2'>
