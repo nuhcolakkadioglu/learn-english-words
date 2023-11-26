@@ -9,7 +9,7 @@ const Word = ({ wordList }: { wordList: any }) => {
 
 
     useEffect(() => {
-        const userLocalStorageWordList = JSON.parse(localStorage.getItem('word-user'));
+        const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user")|| '[]');
 
         if (userLocalStorageWordList !== null) {
             let newvalue = wordList.filter(m => !userLocalStorageWordList.some(x => x.id === m.id));
