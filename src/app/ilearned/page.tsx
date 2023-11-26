@@ -6,7 +6,7 @@ const page = () => {
     const [words, setWords] = useState([]);
 
     useEffect(() => {
-        const userLocalStorage = JSON.parse(localStorage.getItem("word-user"));
+        const userLocalStorage = JSON.parse(localStorage.getItem("word-user")|| '[]');
         if (userLocalStorage !== null) {
             setWords(userLocalStorage);
 

@@ -12,7 +12,7 @@ const page = () => {
 
 
     useEffect(() => {
-        const userLocalStorageWordList = JSON.parse(localStorage.getItem('word-user'));
+        const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user")|| '[]');
 
         if (userLocalStorageWordList !== null) {
             let newvalue = wordList.filter(m => !userLocalStorageWordList.some(x => x.id === m.id));
@@ -35,7 +35,7 @@ const page = () => {
         //let randomUser = `User-${Math.round(Math.random() * 17976931348623)}`;
 
         if (localStorage.getItem('word-user')) {
-            const userWordList = JSON.parse(localStorage.getItem('word-user'));
+            const userWordList = JSON.parse(localStorage.getItem("word-user")|| '[]');
             localStorage.removeItem('word-user')
             let exist = userWordList.find(item => item.id == value.id)
             exist || userWordList.push({ id: value.id, ENG: value.ENG, TR: value.TR, categoryId: value.categoryId });
