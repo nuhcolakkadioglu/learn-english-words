@@ -12,7 +12,6 @@ const page = () => {
 
         }
     }, []);
-    console.log(words);
     return (
         <div className='container text-center mt-5'>
             <h1>Total Word Count {words.length}</h1>

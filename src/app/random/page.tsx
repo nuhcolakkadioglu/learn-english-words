@@ -5,17 +5,18 @@ import { useEffect, useState } from 'react';
 import Button from '../components/button/Button';
 
 const page = () => {
-    let wordList:any = data.words;
+    let wordList: any = data.words;
     const [hidden, setHidden] = useState<boolean>(false);
     const [nextIndex, setNextIndex] = useState<number>(0);
     const [words, setWords] = useState([]);
+    const [ilearnedTotal, setIlearnedTotal] = useState(0);
 
 
     useEffect(() => {
-        const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user")|| '[]');
-
+        const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
+        setIlearnedTotal(userLocalStorageWordList.length);
         if (userLocalStorageWordList !== null) {
-            let newvalue = wordList.filter((m:any) => !userLocalStorageWordList.some((x:any) => x.id === m.id));
+            let newvalue = wordList.filter((m: any) => !userLocalStorageWordList.some((x: any) => x.id === m.id));
             setWords(newvalue);
         } else {
             setWords(wordList);
@@ -24,20 +25,25 @@ const page = () => {
 
     const handleNext = () => {
         setHidden(false);
-        if (nextIndex < wordList.length - 1)
-            setNextIndex(Math.round(Math.random()*3845));
+        let rndIndex = (Math.round(Math.random() * 15 - ilearnedTotal));
+
+        if (nextIndex < words.length)
+            setNextIndex(rndIndex);
         else {
+            // setNextIndex(0);
             alert("The End");
         }
+
     }
 
-    const handleLearned = (value:any) => {
-        //let randomUser = `User-${Math.round(Math.random() * 17976931348623)}`;
+    const handleLearned = (value: any) => {
+        if (value === undefined)
+            return;
 
         if (localStorage.getItem('word-user')) {
-            const userWordList = JSON.parse(localStorage.getItem("word-user")|| '[]');
+            const userWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
             localStorage.removeItem('word-user')
-            let exist = userWordList.find((item:any) => item.id == value.id)
+            let exist = userWordList.find((item: any) => item.id == value.id)
             exist || userWordList.push({ id: value.id, ENG: value.ENG, TR: value.TR, categoryId: value.categoryId });
             localStorage.setItem('word-user', JSON.stringify(userWordList))
         } else {
@@ -45,7 +51,7 @@ const page = () => {
         }
     }
 
-    let item:any = words[nextIndex];
+    let item: any = words[nextIndex];
     return (
         <div className='container-fluid mt-2'>
             <div className="row">
