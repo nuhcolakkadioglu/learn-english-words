@@ -10,7 +10,7 @@ const page = () => {
     const [nextIndex, setNextIndex] = useState<number>(0);
     const [words, setWords] = useState([]);
     const [ilearnedTotal, setIlearnedTotal] = useState(0);
-
+    const [rndIndex, setRndIndex] = useState<number>(0);
 
     useEffect(() => {
         const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
@@ -25,9 +25,9 @@ const page = () => {
 
     const handleNext = () => {
         setHidden(false);
-        let rndIndex = (Math.round(Math.random() * 15 - ilearnedTotal));
+        setRndIndex((Math.round(Math.random() * words.length - ilearnedTotal)));
 
-        if (nextIndex < words.length)
+        if (nextIndex < words.length- ilearnedTotal)
             setNextIndex(rndIndex);
         else {
             // setNextIndex(0);
@@ -49,6 +49,8 @@ const page = () => {
         } else {
             localStorage.setItem('word-user', JSON.stringify([{ id: value.id, ENG: value.ENG, TR: value.TR, categoryId: value.categoryId }]))
         }
+        setHidden(false);
+        setNextIndex(rndIndex);
     }
 
     let item: any = words[nextIndex];
@@ -63,6 +65,9 @@ const page = () => {
                     </div>
                     <p className="text-center">
                         Total Word Count: {words.length}
+                    </p>
+                    <p className="text-center">
+                          Rondom Item Number: {rndIndex}
                     </p>
                     <div className="d-flex justify-content-center gap-3">
                         <Button onClick={() => handleLearned(item)} className="btn btn-success">I Learned</Button>
