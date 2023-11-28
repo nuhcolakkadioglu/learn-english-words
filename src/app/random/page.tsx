@@ -22,7 +22,7 @@ const page = () => {
             setWords(wordList);
         }
     }, [nextIndex])
-
+    //prod test
     const handleNext = () => {
         setHidden(false);
         setRndIndex((Math.round(Math.random() * words.length - ilearnedTotal)));
