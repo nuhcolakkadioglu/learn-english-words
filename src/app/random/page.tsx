@@ -25,9 +25,9 @@ const page = () => {
 
     const handleNext = () => {
         setHidden(false);
-        let rndIndex = (Math.round(Math.random() * 15 - ilearnedTotal));
+        let rndIndex = (Math.round(Math.random() * 3845 - ilearnedTotal));
 
-        if (nextIndex < words.length)
+        if (nextIndex < words.length- ilearnedTotal)
             setNextIndex(rndIndex);
         else {
             // setNextIndex(0);
