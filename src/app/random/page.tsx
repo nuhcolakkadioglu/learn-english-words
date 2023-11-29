@@ -3,14 +3,18 @@ import Word from '../components/word/Word'
 import data from '../../data/db.json'
 import { useEffect, useState } from 'react';
 import Button from '../components/button/Button';
+import ReactAudioPlayer from 'react-audio-player';
 
 const page = () => {
     let wordList: any = data.words;
     const [hidden, setHidden] = useState<boolean>(false);
     const [nextIndex, setNextIndex] = useState<number>(0);
-    const [words, setWords] = useState([]);
+    const [words, setWords] = useState<any[]>([]);
     const [ilearnedTotal, setIlearnedTotal] = useState(0);
     const [rndIndex, setRndIndex] = useState<number>(0);
+    const [ses, setSes] = useState<any>("");
+
+
 
     useEffect(() => {
         const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
@@ -21,18 +25,30 @@ const page = () => {
         } else {
             setWords(wordList);
         }
+
+        fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${words[nextIndex]?.ENG}`)
+        .then(request => request.json())
+        .then(data => setSes(data[0]?.phonetics[1]?.audio))
+    console.log("nextIndex", words[nextIndex]);
+    
     }, [nextIndex])
+
+ 
+
     //prod test
     const handleNext = () => {
         setHidden(false);
-        setRndIndex((Math.round(Math.random() * words.length - ilearnedTotal)));
+        setRndIndex((Math.round(Math.random() * (words.length - ilearnedTotal))));
 
-        if (nextIndex < words.length- ilearnedTotal)
+        if (nextIndex < words.length - ilearnedTotal) {
             setNextIndex(rndIndex);
+        }
+
         else {
             // setNextIndex(0);
             alert("The End");
         }
+
 
     }
 
@@ -53,24 +69,32 @@ const page = () => {
         setNextIndex(rndIndex);
     }
 
-    let item: any = words[nextIndex];
+
+
+
     return (
         <div className='container-fluid mt-2'>
             <div className="row">
 
                 <div className="bg-dark-subtle">
                     <div className="px-6 py-4">
-                        <div className="fs-1 text-center">{item?.ENG}</div>
-                        <div className="fs-1 text-center">{hidden && item?.TR}.</div>
+                        <div className="fs-1 text-center">{words[nextIndex]?.ENG}</div>
+                        <div className="fs-1 text-center">{hidden && words[nextIndex]?.TR}.</div>
+                        <div className='text-center'>
+                            <ReactAudioPlayer
+                                src={ses}
+                                controls
+                            />
+                        </div>
                     </div>
                     <p className="text-center">
                         Total Word Count: {words.length}
                     </p>
                     <p className="text-center">
-                          Rondom Item Number: {rndIndex}
+                        Rondom Item Number: {rndIndex}
                     </p>
                     <div className="d-flex justify-content-center gap-3">
-                        <Button onClick={() => handleLearned(item)} className="btn btn-success">I Learned</Button>
+                        <Button onClick={() => handleLearned(words[nextIndex])} className="btn btn-success">I Learned</Button>
                         <Button
                             onClick={() => setHidden(!hidden)}
                             className="btn btn-warning">Show</Button>
