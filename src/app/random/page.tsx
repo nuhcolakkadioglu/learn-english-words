@@ -14,8 +14,6 @@ const page = () => {
     const [rndIndex, setRndIndex] = useState<number>(0);
     const [ses, setSes] = useState<any>("");
 
-
-
     useEffect(() => {
         const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
         setIlearnedTotal(userLocalStorageWordList.length);
@@ -25,17 +23,9 @@ const page = () => {
         } else {
             setWords(wordList);
         }
-
-        fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${words[nextIndex]?.ENG}`)
-        .then(request => request.json())
-        .then(data => setSes(data[0]?.phonetics[1]?.audio))
-    console.log("nextIndex", words[nextIndex]);
-    
+        loadSound(words[nextIndex]?.ENG);
     }, [nextIndex])
 
- 
-
-    //prod test
     const handleNext = () => {
         setHidden(false);
         setRndIndex((Math.round(Math.random() * (words.length - ilearnedTotal))));
@@ -43,13 +33,14 @@ const page = () => {
         if (nextIndex < words.length - ilearnedTotal) {
             setNextIndex(rndIndex);
         }
+        // if (nextIndex < words.length - ilearnedTotal) {
+        //     setNextIndex(prev => prev + 1);
+        // }
 
         else {
             // setNextIndex(0);
             alert("The End");
         }
-
-
     }
 
     const handleLearned = (value: any) => {
@@ -66,11 +57,25 @@ const page = () => {
             localStorage.setItem('word-user', JSON.stringify([{ id: value.id, ENG: value.ENG, TR: value.TR, categoryId: value.categoryId }]))
         }
         setHidden(false);
-        setNextIndex(rndIndex);
+        setNextIndex(prev => prev + 1);
+
     }
 
+    const loadSound = (word: string) => {
+        fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`)
+            .then(request => request.json())
+            .then(data => {
+                if (data[0]?.phonetics[0]?.audio !== "")
+                    setSes(data[0]?.phonetics[0]?.audio)
+                else if (data[0]?.phonetics[1]?.audio !== "")
+                    setSes(data[0]?.phonetics[1]?.audio)
+                else
+                    setSes(data[0]?.phonetics[2]?.audio)
+                // setSes(data[0]?.phonetics[0]?.audio === "" ? data[0]?.phonetics[1]?.audio : data[0]?.phonetics[0]?.audio )
+            });
 
 
+    }
 
     return (
         <div className='container-fluid mt-2'>
@@ -80,24 +85,27 @@ const page = () => {
                     <div className="px-6 py-4">
                         <div className="fs-1 text-center">{words[nextIndex]?.ENG}</div>
                         <div className="fs-1 text-center">{hidden && words[nextIndex]?.TR}.</div>
-                        <div className='text-center'>
-                            <ReactAudioPlayer
-                                src={ses}
-                                controls
-                            />
-                        </div>
+                        {
+                            <div className='text-center'>
+                                <ReactAudioPlayer
+                                    src={ses}
+                                    controls
+                                />
+                            </div>
+                        }
                     </div>
                     <p className="text-center">
-                        Total Word Count: {words.length}
+                        Total Word: {words.length}
                     </p>
                     <p className="text-center">
-                        Rondom Item Number: {rndIndex}
+                        I Learned Total: {ilearnedTotal}
                     </p>
                     <div className="d-flex justify-content-center gap-3">
                         <Button onClick={() => handleLearned(words[nextIndex])} className="btn btn-success">I Learned</Button>
                         <Button
                             onClick={() => setHidden(!hidden)}
                             className="btn btn-warning">Show</Button>
+
                         <Button
                             onClick={handleNext}
                             className="btn btn-primary">Next</Button>
