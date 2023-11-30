@@ -69,8 +69,10 @@ const page = () => {
                     setSes(data[0]?.phonetics[0]?.audio)
                 else if (data[0]?.phonetics[1]?.audio !== "")
                     setSes(data[0]?.phonetics[1]?.audio)
-                else
+                else if (data[0]?.phonetics[2]?.audio !== "")
                     setSes(data[0]?.phonetics[2]?.audio)
+                else
+                setSes(data[0]?.phonetics[3]?.audio)
                 // setSes(data[0]?.phonetics[0]?.audio === "" ? data[0]?.phonetics[1]?.audio : data[0]?.phonetics[0]?.audio )
             });
 
