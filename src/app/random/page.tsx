@@ -4,6 +4,7 @@ import data from '../../data/db.json'
 import { useEffect, useState } from 'react';
 import Button from '../components/button/Button';
 import ReactAudioPlayer from 'react-audio-player';
+import next from 'next';
 
 const page = () => {
     let wordList: any = data.words;
@@ -23,19 +24,19 @@ const page = () => {
         } else {
             setWords(wordList);
         }
-        loadSound(words[nextIndex]?.ENG);
+       // loadSound(words[nextIndex]?.ENG);
     }, [nextIndex])
 
     const handleNext = () => {
         setHidden(false);
         setRndIndex((Math.round(Math.random() * (words.length - ilearnedTotal))));
 
-        if (nextIndex < words.length - ilearnedTotal) {
-            setNextIndex(rndIndex);
-        }
         // if (nextIndex < words.length - ilearnedTotal) {
-        //     setNextIndex(prev => prev + 1);
+        //     setNextIndex(rndIndex);
         // }
+        if (nextIndex < words.length - ilearnedTotal) {
+            setNextIndex(prev => prev + 1);
+        }
 
         else {
             // setNextIndex(0);
@@ -102,8 +103,11 @@ const page = () => {
                     <p className="text-center">
                         I Learned Total: {ilearnedTotal}
                     </p>
+                    <p className="text-center">
+                        I Learned Total: {nextIndex}
+                    </p>
                     <div className="d-flex justify-content-center gap-3">
-                        <Button onClick={() => handleLearned(words[nextIndex])} className="btn btn-success">I Learned</Button>
+                        <Button onClick={() => handleLearned(words[nextIndex])} className="btn btn-success">Learned</Button>
                         <Button
                             onClick={() => setHidden(!hidden)}
                             className="btn btn-warning">Show</Button>
