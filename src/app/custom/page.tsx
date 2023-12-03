@@ -34,7 +34,7 @@ const page = () => {
         // if (nextIndex < words.length - ilearnedTotal) {
         //     setNextIndex(rndIndex);
         // }
-       if (nextIndex < words.length-ilearnedTotal) {
+       if (nextIndex < words.length-1) {
             setNextIndex(prev => prev + 1);
        }
 
