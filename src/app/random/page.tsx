@@ -19,7 +19,7 @@ const page = () => {
         const userLocalStorageWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
         setIlearnedTotal(userLocalStorageWordList.length);
         if (userLocalStorageWordList !== null) {
-            let newvalue = wordList.filter((m: any) => !userLocalStorageWordList.some((x: any) => x.id === m.id));
+            let newvalue = wordList.filter((m: any) => !userLocalStorageWordList.some((x: any) => x.ENG === m.ENG));
             setWords(newvalue);
         } else {
             setWords(wordList);
@@ -51,7 +51,7 @@ const page = () => {
         if (localStorage.getItem('word-user')) {
             const userWordList = JSON.parse(localStorage.getItem("word-user") || '[]');
             localStorage.removeItem('word-user')
-            let exist = userWordList.find((item: any) => item.id == value.id)
+            let exist = userWordList.find((item: any) => item.ENG == value.ENG)
             exist || userWordList.push({ id: value.id, ENG: value.ENG, TR: value.TR, categoryId: value.categoryId });
             localStorage.setItem('word-user', JSON.stringify(userWordList))
         } else {
@@ -104,7 +104,7 @@ const page = () => {
                         I Learned Total: {ilearnedTotal}
                     </p>
                     <p className="text-center">
-                        I Learned Total: {nextIndex}
+                    next Index: {nextIndex}
                     </p>
                     <div className="d-flex justify-content-center gap-3">
                         <Button onClick={() => handleLearned(words[nextIndex])} className="btn btn-success">Learned</Button>
