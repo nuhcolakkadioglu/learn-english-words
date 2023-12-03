@@ -1,50 +1,151 @@
 {
     "words": [
+  
+            {
+                "id": "1",
+                "ENG": "tell",
+                "TR": "anlatmak"
+            },
+            {
+                "id": "2",
+                "ENG": "hear",
+                "TR": "duymak"
+            },
+            {
+                "id": "3",
+                "ENG": "move",
+                "TR": "hareket etmek"
+            },
+            {
+                "id": "4",
+                "ENG": "bring",
+                "TR": "getirmek"
+            },
+            {
+                "id": "5",
+                "ENG": "happen",
+                "TR": "olmak"
+            },
+            {
+                "id": "6",
+                "ENG": "stand",
+                "TR": "ayakta durmak"
+            },
+            {
+                "id": "7",
+                "ENG": "lose",
+                "TR": "kaybetmek"
+            },
+            {
+                "id": "8",
+                "ENG": "spend",
+                "TR": "harcamak"
+            },
+            {
+                "id": "9",
+                "ENG": "grow",
+                "TR": "büyümek"
+            },
+            {
+                "id": "10",
+                "ENG": "teach",
+                "TR": "öğretmenk"
+            },
+            {
+                "id": "11",
+                "ENG": "offer",
+                "TR": "teklif etmek"
+            },
+            {
+                "id": "12",
+                "ENG": "remember",
+                "TR": "hatırlamak"
+            },
+            {
+                "id": "13",
+                "ENG": "reach",
+                "TR": "ulaşmak"
+            },
+            {
+                "id": "14",
+                "ENG": "raise",
+                "TR": "arttırmak"
+            },
+            {
+                "id": "15",
+                "ENG": "decide",
+                "TR": "karar vermek"
+            },
+            {
+                "id": "16",
+                "ENG": "explain",
+                "TR": "açıklamak"
+            },
+            {
+                "id": "17",
+                "ENG": "hope",
+                "TR": "umut etmek"
+            },
+            {
+                "id": "18",
+                "ENG": "carry",
+                "TR": "taşımak"
+            },
+            {
+                "id": "19",
+                "ENG": "hit",
+                "TR": "vurmak"
+            },
+            {
+                "id": "20",
+                "ENG": "receive",
+                "TR": "ulaşmak"
+            },
+            {
+                "id": "21",
+                "ENG": "produce",
+                "TR": "üretmek"
+            },
+            {
+                "id": "22",
+                "ENG": "eat",
+                "TR": "yemek"
+            },
+            {
+                "id": "23",
+                "ENG": "catch",
+                "TR": "yakalamak"
+            },
+            {
+                "id": "24",
+                "ENG": "wish",
+                "TR": "dilemek"
+            },
+            {
+                "id": "25",
+                "ENG": "pass",
+                "TR": "gecmek"
+            },
+            {
+                "id": "26",
+                "ENG": "wash",
+                "TR": "yıkamak"
+            },
+            {
+                "id": "27",
+                "ENG": "wear",
+                "TR": "giymek"
+            },
+            {
+                "id": "28",
+                "ENG": "relatives",
+                "TR": "akrabalar"
+            },
+            {
+                "id": "29",
+                "ENG": "colleague",
+                "TR": "iş arkaşı"
+            }
+        ]
  
-        {
-            "id": "1",
-            "ENG": "tell",
-            "TR": "anlatmak"
-        },
-        {
-            "id": "2",
-            "ENG": "hear",
-            "TR": "duymak"
-        },
-        {
-            "id": "3",
-            "ENG": "move",
-            "TR": "hareket etmek"
-        },
-        {
-            "id": "4",
-            "ENG": "bring",
-            "TR": "getirmek"
-        },
-        {
-            "id": "5",
-            "ENG": "happen",
-            "TR": "olmak"
-        },
-        {
-            "id": "6",
-            "ENG": "stand",
-            "TR": "ayakta durmak"
-        },
-        {
-            "id": "7",
-            "ENG": "lose",
-            "TR": "kaybetmek"
-        },
-        {
-            "id": "8",
-            "ENG": "spend",
-            "TR": "harcamak"
-        },
-        {
-            "id": "9",
-            "ENG": "grow",
-            "TR": "büyümek"
-        }
-    ]
 }
