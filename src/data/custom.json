@@ -1,0 +1,50 @@
+{
+    "words": [
+ 
+        {
+            "id": "1",
+            "ENG": "tell",
+            "TR": "anlatmak"
+        },
+        {
+            "id": "2",
+            "ENG": "hear",
+            "TR": "duymak"
+        },
+        {
+            "id": "3",
+            "ENG": "move",
+            "TR": "hareket etmek"
+        },
+        {
+            "id": "4",
+            "ENG": "bring",
+            "TR": "getirmek"
+        },
+        {
+            "id": "5",
+            "ENG": "happen",
+            "TR": "olmak"
+        },
+        {
+            "id": "6",
+            "ENG": "stand",
+            "TR": "ayakta durmak"
+        },
+        {
+            "id": "7",
+            "ENG": "lose",
+            "TR": "kaybetmek"
+        },
+        {
+            "id": "8",
+            "ENG": "spend",
+            "TR": "harcamak"
+        },
+        {
+            "id": "9",
+            "ENG": "grow",
+            "TR": "büyümek"
+        }
+    ]
+}
