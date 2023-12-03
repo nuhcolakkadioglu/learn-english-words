@@ -11,8 +11,10 @@ const HomePage = ({ categories }: { categories: ICategories[] }) => {
         <div className="container">
             <div className="row">
                 <h4 className="text-center">Select Category</h4>
-                <Link href="/random" className="col-sm-12 col-md-3 bg-info-subtle
-                text-success-emphasis p-1 m-1 border text-center link-underline-dark"> Random </Link>
+                <Link href="/random" className="col-sm-6 col-md-3 bg-info-subtle
+                text-success-emphasis p-1 m-1 border text-center link-underline-dark">Random</Link>
+                <Link href="/custom" className="col-sm-6 col-md-3 bg-info-subtle
+                text-success-emphasis p-1 m-1 border text-center link-underline-dark">Custom </Link>
 
                 {
                     categories.map((item, index) => (
