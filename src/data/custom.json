@@ -1,151 +1,4995 @@
 {
-    "words": [
-  
-            {
-                "id": "1",
-                "ENG": "tell",
-                "TR": "anlatmak"
-            },
-            {
-                "id": "2",
-                "ENG": "hear",
-                "TR": "duymak"
-            },
-            {
-                "id": "3",
-                "ENG": "move",
-                "TR": "hareket etmek"
-            },
-            {
-                "id": "4",
-                "ENG": "bring",
-                "TR": "getirmek"
-            },
-            {
-                "id": "5",
-                "ENG": "happen",
-                "TR": "olmak"
-            },
-            {
-                "id": "6",
-                "ENG": "stand",
-                "TR": "ayakta durmak"
-            },
-            {
-                "id": "7",
-                "ENG": "lose",
-                "TR": "kaybetmek"
-            },
-            {
-                "id": "8",
-                "ENG": "spend",
-                "TR": "harcamak"
-            },
-            {
-                "id": "9",
-                "ENG": "grow",
-                "TR": "büyümek"
-            },
-            {
-                "id": "10",
-                "ENG": "teach",
-                "TR": "öğretmenk"
-            },
-            {
-                "id": "11",
-                "ENG": "offer",
-                "TR": "teklif etmek"
-            },
-            {
-                "id": "12",
-                "ENG": "remember",
-                "TR": "hatırlamak"
-            },
-            {
-                "id": "13",
-                "ENG": "reach",
-                "TR": "ulaşmak"
-            },
-            {
-                "id": "14",
-                "ENG": "raise",
-                "TR": "arttırmak"
-            },
-            {
-                "id": "15",
-                "ENG": "decide",
-                "TR": "karar vermek"
-            },
-            {
-                "id": "16",
-                "ENG": "explain",
-                "TR": "açıklamak"
-            },
-            {
-                "id": "17",
-                "ENG": "hope",
-                "TR": "umut etmek"
-            },
-            {
-                "id": "18",
-                "ENG": "carry",
-                "TR": "taşımak"
-            },
-            {
-                "id": "19",
-                "ENG": "hit",
-                "TR": "vurmak"
-            },
-            {
-                "id": "20",
-                "ENG": "receive",
-                "TR": "ulaşmak"
-            },
-            {
-                "id": "21",
-                "ENG": "produce",
-                "TR": "üretmek"
-            },
-            {
-                "id": "22",
-                "ENG": "eat",
-                "TR": "yemek"
-            },
-            {
-                "id": "23",
-                "ENG": "catch",
-                "TR": "yakalamak"
-            },
-            {
-                "id": "24",
-                "ENG": "wish",
-                "TR": "dilemek"
-            },
-            {
-                "id": "25",
-                "ENG": "pass",
-                "TR": "gecmek"
-            },
-            {
-                "id": "26",
-                "ENG": "wash",
-                "TR": "yıkamak"
-            },
-            {
-                "id": "27",
-                "ENG": "wear",
-                "TR": "giymek"
-            },
-            {
-                "id": "28",
-                "ENG": "relatives",
-                "TR": "akrabalar"
-            },
-            {
-                "id": "29",
-                "ENG": "colleague",
-                "TR": "iş arkaşı"
-            }
-        ]
- 
+    "words":
+    [
+        {
+            "id": "1",
+            "ENG": "countant",
+            "TR": "muhasebeci"
+        },
+        {
+            "id": "2",
+            "ENG": "afraid",
+            "TR": "korkmuş"
+        },
+        {
+            "id": "3",
+            "ENG": "age",
+            "TR": "yaş"
+        },
+        {
+            "id": "4",
+            "ENG": "airplane",
+            "TR": "uçak"
+        },
+        {
+            "id": "5",
+            "ENG": "alone",
+            "TR": "yalnız"
+        },
+        {
+            "id": "6",
+            "ENG": "angry",
+            "TR": "kızgın-sinirli"
+        },
+        {
+            "id": "7",
+            "ENG": "animal",
+            "TR": "hayvan"
+        },
+        {
+            "id": "8",
+            "ENG": "answer",
+            "TR": "cevap vermek"
+        },
+        {
+            "id": "9",
+            "ENG": "architect",
+            "TR": "mimar"
+        },
+        {
+            "id": "10",
+            "ENG": "arrive",
+            "TR": "varmak"
+        },
+        {
+            "id": "11",
+            "ENG": "aunt",
+            "TR": "hala-teyze"
+        },
+        {
+            "id": "12",
+            "ENG": "bag",
+            "TR": "çanta"
+        },
+        {
+            "id": "13",
+            "ENG": "ball",
+            "TR": "top"
+        },
+        {
+            "id": "14",
+            "ENG": "bath",
+            "TR": "banyo"
+        },
+        {
+            "id": "15",
+            "ENG": "beautiful",
+            "TR": "güzel"
+        },
+        {
+            "id": "16",
+            "ENG": "bill",
+            "TR": "hesap-fatura"
+        },
+        {
+            "id": "17",
+            "ENG": "body",
+            "TR": "vücut"
+        },
+        {
+            "id": "18",
+            "ENG": "boil",
+            "TR": "kaynamak"
+        },
+        {
+            "id": "19",
+            "ENG": "bookstore",
+            "TR": "kitapçı"
+        },
+        {
+            "id": "20",
+            "ENG": "boring",
+            "TR": "sıkıcı"
+        },
+        {
+            "id": "21",
+            "ENG": "borrow",
+            "TR": "ödünç almak"
+        },
+        {
+            "id": "22",
+            "ENG": "boss",
+            "TR": "patron"
+        },
+        {
+            "id": "23",
+            "ENG": "bottle",
+            "TR": "şişe"
+        },
+        {
+            "id": "24",
+            "ENG": "box",
+            "TR": "kutu"
+        },
+        {
+            "id": "25",
+            "ENG": "brave",
+            "TR": "cesur"
+        },
+        {
+            "id": "26",
+            "ENG": "bread",
+            "TR": "ekmek"
+        },
+        {
+            "id": "27",
+            "ENG": "break",
+            "TR": "kırmak"
+        },
+        {
+            "id": "28",
+            "ENG": "bridge",
+            "TR": "köprü"
+        },
+        {
+            "id": "29",
+            "ENG": "brush",
+            "TR": "fırça"
+        },
+        {
+            "id": "30",
+            "ENG": "build",
+            "TR": "inşa etmek"
+        },
+        {
+            "id": "31",
+            "ENG": "butter",
+            "TR": "tere yağı"
+        },
+        {
+            "id": "32",
+            "ENG": "calculator",
+            "TR": "hesap makinası"
+        },
+        {
+            "id": "33",
+            "ENG": "calendar",
+            "TR": "takvim"
+        },
+        {
+            "id": "34",
+            "ENG": "call",
+            "TR": "aramak"
+        },
+        {
+            "id": "35",
+            "ENG": "capital",
+            "TR": "başkent"
+        },
+        {
+            "id": "36",
+            "ENG": "carpenter",
+            "TR": "marangoz"
+        },
+        {
+            "id": "37",
+            "ENG": "carpet",
+            "TR": "halı"
+        },
+        {
+            "id": "38",
+            "ENG": "carry",
+            "TR": "taşımak"
+        },
+        {
+            "id": "39",
+            "ENG": "cartoon",
+            "TR": "çizgi film"
+        },
+        {
+            "id": "40",
+            "ENG": "chair",
+            "TR": "sandalye"
+        },
+        {
+            "id": "41",
+            "ENG": "cheap",
+            "TR": "ucuz"
+        },
+        {
+            "id": "42",
+            "ENG": "cheese",
+            "TR": "peynir"
+        },
+        {
+            "id": "43",
+            "ENG": "cherry",
+            "TR": "kiraz"
+        },
+        {
+            "id": "44",
+            "ENG": "chicken",
+            "TR": "tavuk"
+        },
+        {
+            "id": "45",
+            "ENG": "church",
+            "TR": "kilise"
+        },
+        {
+            "id": "46",
+            "ENG": "clean",
+            "TR": "temizlemek"
+        },
+        {
+            "id": "47",
+            "ENG": "clear",
+            "TR": "açık, net"
+        },
+        {
+            "id": "48",
+            "ENG": "clever",
+            "TR": "akıllı"
+        },
+        {
+            "id": "49",
+            "ENG": "clock",
+            "TR": "saat"
+        },
+        {
+            "id": "50",
+            "ENG": "cloud",
+            "TR": "bulut"
+        },
+        {
+            "id": "51",
+            "ENG": "coat",
+            "TR": "kaban"
+        },
+        {
+            "id": "52",
+            "ENG": "cold",
+            "TR": "soğuk"
+        },
+        {
+            "id": "53",
+            "ENG": "company",
+            "TR": "şirket"
+        },
+        {
+            "id": "54",
+            "ENG": "continue",
+            "TR": "devam etmek"
+        },
+        {
+            "id": "55",
+            "ENG": "country",
+            "TR": "ülke"
+        },
+        {
+            "id": "56",
+            "ENG": "cow",
+            "TR": "inek"
+        },
+        {
+            "id": "57",
+            "ENG": "cry",
+            "TR": "ağlamak"
+        },
+        {
+            "id": "58",
+            "ENG": "daily",
+            "TR": "günlük"
+        },
+        {
+            "id": "59",
+            "ENG": "dark",
+            "TR": "koyu-karanlık"
+        },
+        {
+            "id": "60",
+            "ENG": "dentist",
+            "TR": "diş hekimi"
+        },
+        {
+            "id": "61",
+            "ENG": "difficult",
+            "TR": "zor"
+        },
+        {
+            "id": "62",
+            "ENG": "dirty",
+            "TR": "kirli"
+        },
+        {
+            "id": "63",
+            "ENG": "divorced",
+            "TR": "boşanmış"
+        },
+        {
+            "id": "64",
+            "ENG": "draw",
+            "TR": "çizmek"
+        },
+        {
+            "id": "65",
+            "ENG": "early",
+            "TR": "erken"
+        },
+        {
+            "id": "66",
+            "ENG": "earn",
+            "TR": "kazanmak"
+        },
+        {
+            "id": "67",
+            "ENG": "elephant",
+            "TR": "fil"
+        },
+        {
+            "id": "68",
+            "ENG": "emergency",
+            "TR": "acil"
+        },
+        {
+            "id": "69",
+            "ENG": "empty",
+            "TR": "boş"
+        },
+        {
+            "id": "70",
+            "ENG": "engaged",
+            "TR": "nişanlı"
+        },
+        {
+            "id": "71",
+            "ENG": "engineer",
+            "TR": "mühendis"
+        },
+        {
+            "id": "72",
+            "ENG": "enough",
+            "TR": "yeterli"
+        },
+        {
+            "id": "73",
+            "ENG": "eraser",
+            "TR": "silgi"
+        },
+        {
+            "id": "74",
+            "ENG": "error",
+            "TR": "hata"
+        },
+        {
+            "id": "75",
+            "ENG": "fall",
+            "TR": "düşmek-sonbahar"
+        },
+        {
+            "id": "76",
+            "ENG": "far",
+            "TR": "uzak"
+        },
+        {
+            "id": "77",
+            "ENG": "farm",
+            "TR": "çiftlik"
+        },
+        {
+            "id": "78",
+            "ENG": "fat",
+            "TR": "şişman"
+        },
+        {
+            "id": "79",
+            "ENG": "finger",
+            "TR": "parmak"
+        },
+        {
+            "id": "80",
+            "ENG": "fire",
+            "TR": "ateş-yangın"
+        },
+        {
+            "id": "81",
+            "ENG": "flight",
+            "TR": "uçuş"
+        },
+        {
+            "id": "82",
+            "ENG": "floor",
+            "TR": "yer,zemin"
+        },
+        {
+            "id": "83",
+            "ENG": "fork",
+            "TR": "çatal"
+        },
+        {
+            "id": "84",
+            "ENG": "friendly",
+            "TR": "arkadaşça"
+        },
+        {
+            "id": "85",
+            "ENG": "fruit",
+            "TR": "meyve"
+        },
+        {
+            "id": "86",
+            "ENG": "funny",
+            "TR": "komik"
+        },
+        {
+            "id": "87",
+            "ENG": "garden",
+            "TR": "bahçe"
+        },
+        {
+            "id": "88",
+            "ENG": "glass",
+            "TR": "bardak"
+        },
+        {
+            "id": "89",
+            "ENG": "grape",
+            "TR": "üzüm"
+        },
+        {
+            "id": "90",
+            "ENG": "gun",
+            "TR": "tabanca"
+        },
+        {
+            "id": "91",
+            "ENG": "habit",
+            "TR": "alışkanlık"
+        },
+        {
+            "id": "92",
+            "ENG": "half",
+            "TR": "yarım"
+        },
+        {
+            "id": "93",
+            "ENG": "hand",
+            "TR": "el"
+        },
+        {
+            "id": "94",
+            "ENG": "handsome",
+            "TR": "yakışıklı"
+        },
+        {
+            "id": "95",
+            "ENG": "hate",
+            "TR": "nefret etmek"
+        },
+        {
+            "id": "96",
+            "ENG": "health",
+            "TR": "sağlık"
+        },
+        {
+            "id": "97",
+            "ENG": "hear",
+            "TR": "duymak"
+        },
+        {
+            "id": "98",
+            "ENG": "heart",
+            "TR": "kalp"
+        },
+        {
+            "id": "99",
+            "ENG": "heavy",
+            "TR": "ağır"
+        },
+        {
+            "id": "100",
+            "ENG": "high",
+            "TR": "yüksek"
+        },
+        {
+            "id": "101",
+            "ENG": "history",
+            "TR": "tarih"
+        },
+        {
+            "id": "102",
+            "ENG": "horror",
+            "TR": "korku"
+        },
+        {
+            "id": "103",
+            "ENG": "hungry",
+            "TR": "aç"
+        },
+        {
+            "id": "104",
+            "ENG": "ill",
+            "TR": "hasta"
+        },
+        {
+            "id": "105",
+            "ENG": "interested",
+            "TR": "ilgili"
+        },
+        {
+            "id": "106",
+            "ENG": "job",
+            "TR": "meslek"
+        },
+        {
+            "id": "107",
+            "ENG": "journalist",
+            "TR": "gazeteci"
+        },
+        {
+            "id": "108",
+            "ENG": "kill",
+            "TR": "öldürmek"
+        },
+        {
+            "id": "109",
+            "ENG": "large",
+            "TR": "geniş"
+        },
+        {
+            "id": "110",
+            "ENG": "laugh",
+            "TR": "gülmek"
+        },
+        {
+            "id": "111",
+            "ENG": "lawyer",
+            "TR": "avukat"
+        },
+        {
+            "id": "112",
+            "ENG": "leave",
+            "TR": "ayrılmak"
+        },
+        {
+            "id": "113",
+            "ENG": "left",
+            "TR": "sol"
+        },
+        {
+            "id": "114",
+            "ENG": "lend",
+            "TR": "ödünç vermek"
+        },
+        {
+            "id": "115",
+            "ENG": "letter",
+            "TR": "mektup"
+        },
+        {
+            "id": "116",
+            "ENG": "library",
+            "TR": "kütüphane"
+        },
+        {
+            "id": "117",
+            "ENG": "light",
+            "TR": "hafif / ışık"
+        },
+        {
+            "id": "118",
+            "ENG": "lunch",
+            "TR": "öğle yemeği"
+        },
+        {
+            "id": "119",
+            "ENG": "main",
+            "TR": "ana-temel"
+        },
+        {
+            "id": "120",
+            "ENG": "manager",
+            "TR": "yönetici,müdür"
+        },
+        {
+            "id": "121",
+            "ENG": "map",
+            "TR": "harita"
+        },
+        {
+            "id": "122",
+            "ENG": "married",
+            "TR": "evli"
+        },
+        {
+            "id": "123",
+            "ENG": "meal",
+            "TR": "yemek"
+        },
+        {
+            "id": "124",
+            "ENG": "meet",
+            "TR": "buluşmak"
+        },
+        {
+            "id": "125",
+            "ENG": "meeting",
+            "TR": "toplantı"
+        },
+        {
+            "id": "126",
+            "ENG": "melon",
+            "TR": "kavun"
+        },
+        {
+            "id": "127",
+            "ENG": "minute",
+            "TR": "dakika"
+        },
+        {
+            "id": "128",
+            "ENG": "mirror",
+            "TR": "ayna"
+        },
+        {
+            "id": "129",
+            "ENG": "miss",
+            "TR": "özlemek"
+        },
+        {
+            "id": "130",
+            "ENG": "mistake",
+            "TR": "hata"
+        },
+        {
+            "id": "131",
+            "ENG": "month",
+            "TR": "ay"
+        },
+        {
+            "id": "132",
+            "ENG": "need",
+            "TR": "ihtiyaç"
+        },
+        {
+            "id": "133",
+            "ENG": "neighbour",
+            "TR": "komşu"
+        },
+        {
+            "id": "134",
+            "ENG": "news",
+            "TR": "haberler"
+        },
+        {
+            "id": "135",
+            "ENG": "nice",
+            "TR": "hoş"
+        },
+        {
+            "id": "136",
+            "ENG": "nose",
+            "TR": "burun"
+        },
+        {
+            "id": "137",
+            "ENG": "nurse",
+            "TR": "hemşire"
+        },
+        {
+            "id": "138",
+            "ENG": "object",
+            "TR": "nesne"
+        },
+        {
+            "id": "139",
+            "ENG": "opposite",
+            "TR": "karşı-zıt"
+        },
+        {
+            "id": "140",
+            "ENG": "oven",
+            "TR": "fırın"
+        },
+        {
+            "id": "141",
+            "ENG": "page",
+            "TR": "sayfa"
+        },
+        {
+            "id": "142",
+            "ENG": "paint",
+            "TR": "boyamak"
+        },
+        {
+            "id": "143",
+            "ENG": "parent",
+            "TR": "ebeveyn"
+        },
+        {
+            "id": "144",
+            "ENG": "pass",
+            "TR": "geçmek"
+        },
+        {
+            "id": "145",
+            "ENG": "pay",
+            "TR": "ödemek"
+        },
+        {
+            "id": "146",
+            "ENG": "pepper",
+            "TR": "biber"
+        },
+        {
+            "id": "147",
+            "ENG": "personal",
+            "TR": "kişisel"
+        },
+        {
+            "id": "148",
+            "ENG": "pet",
+            "TR": "evcil hayvan"
+        },
+        {
+            "id": "149",
+            "ENG": "place",
+            "TR": "yer"
+        },
+        {
+            "id": "150",
+            "ENG": "plane",
+            "TR": "uçak"
+        },
+        {
+            "id": "151",
+            "ENG": "pocket",
+            "TR": "cep"
+        },
+        {
+            "id": "152",
+            "ENG": "polite",
+            "TR": "kibar"
+        },
+        {
+            "id": "153",
+            "ENG": "pool",
+            "TR": "havuz"
+        },
+        {
+            "id": "154",
+            "ENG": "poor",
+            "TR": "fakir"
+        },
+        {
+            "id": "155",
+            "ENG": "possible",
+            "TR": "mümkün"
+        },
+        {
+            "id": "156",
+            "ENG": "push",
+            "TR": "ittirmek"
+        },
+        {
+            "id": "157",
+            "ENG": "quick",
+            "TR": "hızlı"
+        },
+        {
+            "id": "158",
+            "ENG": "quiet",
+            "TR": "sessiz"
+        },
+        {
+            "id": "159",
+            "ENG": "railway",
+            "TR": "tren yolu"
+        },
+        {
+            "id": "160",
+            "ENG": "ready",
+            "TR": "hazır"
+        },
+        {
+            "id": "161",
+            "ENG": "refrigerator",
+            "TR": "buzdolabı"
+        },
+        {
+            "id": "162",
+            "ENG": "remember",
+            "TR": "hatırlamak"
+        },
+        {
+            "id": "163",
+            "ENG": "rent",
+            "TR": "kiralamak"
+        },
+        {
+            "id": "164",
+            "ENG": "repair",
+            "TR": "tamir etmek"
+        },
+        {
+            "id": "165",
+            "ENG": "repeat",
+            "TR": "tekrar etmek"
+        },
+        {
+            "id": "166",
+            "ENG": "restroom",
+            "TR": "tuvalet"
+        },
+        {
+            "id": "167",
+            "ENG": "return",
+            "TR": "geri dönmek"
+        },
+        {
+            "id": "168",
+            "ENG": "rice",
+            "TR": "pirinç"
+        },
+        {
+            "id": "169",
+            "ENG": "rich",
+            "TR": "zengin"
+        },
+        {
+            "id": "170",
+            "ENG": "ride",
+            "TR": "binmek"
+        },
+        {
+            "id": "171",
+            "ENG": "right",
+            "TR": "DOĞRU"
+        },
+        {
+            "id": "172",
+            "ENG": "ring",
+            "TR": "yüzük-telefonun çalması"
+        },
+        {
+            "id": "173",
+            "ENG": "rise",
+            "TR": "güneş(doğmak)"
+        },
+        {
+            "id": "174",
+            "ENG": "river",
+            "TR": "ırmak"
+        },
+        {
+            "id": "175",
+            "ENG": "road",
+            "TR": "yol"
+        },
+        {
+            "id": "176",
+            "ENG": "roof",
+            "TR": "çatı"
+        },
+        {
+            "id": "177",
+            "ENG": "room",
+            "TR": "oda"
+        },
+        {
+            "id": "178",
+            "ENG": "rose",
+            "TR": "gül"
+        },
+        {
+            "id": "179",
+            "ENG": "salt",
+            "TR": "tuz"
+        },
+        {
+            "id": "180",
+            "ENG": "same",
+            "TR": "aynı"
+        },
+        {
+            "id": "181",
+            "ENG": "security",
+            "TR": "güvenlik"
+        },
+        {
+            "id": "182",
+            "ENG": "sell",
+            "TR": "satmak"
+        },
+        {
+            "id": "183",
+            "ENG": "serious",
+            "TR": "ciddi"
+        },
+        {
+            "id": "184",
+            "ENG": "shelf",
+            "TR": "raf"
+        },
+        {
+            "id": "185",
+            "ENG": "ship",
+            "TR": "gemi"
+        },
+        {
+            "id": "186",
+            "ENG": "shirt",
+            "TR": "gömlek"
+        },
+        {
+            "id": "187",
+            "ENG": "shoe",
+            "TR": "ayakkabı"
+        },
+        {
+            "id": "188",
+            "ENG": "show",
+            "TR": "göstermek"
+        },
+        {
+            "id": "189",
+            "ENG": "sick",
+            "TR": "hasta"
+        },
+        {
+            "id": "190",
+            "ENG": "sing",
+            "TR": "şarkı söylemek"
+        },
+        {
+            "id": "191",
+            "ENG": "single",
+            "TR": "bekar"
+        },
+        {
+            "id": "192",
+            "ENG": "skirt",
+            "TR": "etek"
+        },
+        {
+            "id": "193",
+            "ENG": "sky",
+            "TR": "gökyüzü"
+        },
+        {
+            "id": "194",
+            "ENG": "smile",
+            "TR": "gülümsemek"
+        },
+        {
+            "id": "195",
+            "ENG": "snow",
+            "TR": "kar"
+        },
+        {
+            "id": "196",
+            "ENG": "socks",
+            "TR": "çorap"
+        },
+        {
+            "id": "197",
+            "ENG": "son",
+            "TR": "erkek kardeş"
+        },
+        {
+            "id": "198",
+            "ENG": "song",
+            "TR": "şarkı"
+        },
+        {
+            "id": "199",
+            "ENG": "soup",
+            "TR": "çorba"
+        },
+        {
+            "id": "200",
+            "ENG": "spend",
+            "TR": "harcamak"
+        },
+        {
+            "id": "201",
+            "ENG": "spoon",
+            "TR": "kaşık"
+        },
+        {
+            "id": "202",
+            "ENG": "stamp",
+            "TR": "pul"
+        },
+        {
+            "id": "203",
+            "ENG": "stay",
+            "TR": "kalmak"
+        },
+        {
+            "id": "204",
+            "ENG": "story",
+            "TR": "hikaye"
+        },
+        {
+            "id": "205",
+            "ENG": "strawberry",
+            "TR": "çilek"
+        },
+        {
+            "id": "206",
+            "ENG": "strong",
+            "TR": "güçlü"
+        },
+        {
+            "id": "207",
+            "ENG": "successful",
+            "TR": "başarılı"
+        },
+        {
+            "id": "208",
+            "ENG": "suit",
+            "TR": "takım elbise"
+        },
+        {
+            "id": "209",
+            "ENG": "sweet",
+            "TR": "tatlı"
+        },
+        {
+            "id": "210",
+            "ENG": "talk",
+            "TR": "konuşmak"
+        },
+        {
+            "id": "211",
+            "ENG": "tall",
+            "TR": "uzun"
+        },
+        {
+            "id": "212",
+            "ENG": "teach",
+            "TR": "öğretmek"
+        },
+        {
+            "id": "213",
+            "ENG": "thick",
+            "TR": "kalın"
+        },
+        {
+            "id": "214",
+            "ENG": "thief",
+            "TR": "hırsız"
+        },
+        {
+            "id": "215",
+            "ENG": "thin",
+            "TR": "zayıf"
+        },
+        {
+            "id": "216",
+            "ENG": "think",
+            "TR": "düşünmek"
+        },
+        {
+            "id": "217",
+            "ENG": "thirsty",
+            "TR": "susamış"
+        },
+        {
+            "id": "218",
+            "ENG": "ticket",
+            "TR": "bilet"
+        },
+        {
+            "id": "219",
+            "ENG": "tidy",
+            "TR": "düzenlemek"
+        },
+        {
+            "id": "220",
+            "ENG": "tired",
+            "TR": "yorgun"
+        },
+        {
+            "id": "221",
+            "ENG": "toothbrush",
+            "TR": "diş fırçası"
+        },
+        {
+            "id": "222",
+            "ENG": "toothpaste",
+            "TR": "diş macunu"
+        },
+        {
+            "id": "223",
+            "ENG": "towel",
+            "TR": "havlu"
+        },
+        {
+            "id": "224",
+            "ENG": "tower",
+            "TR": "kule"
+        },
+        {
+            "id": "225",
+            "ENG": "town",
+            "TR": "kasaba"
+        },
+        {
+            "id": "226",
+            "ENG": "toy",
+            "TR": "oyuncak"
+        },
+        {
+            "id": "227",
+            "ENG": "trainers",
+            "TR": "spor ayakkabı"
+        },
+        {
+            "id": "228",
+            "ENG": "travel",
+            "TR": "seyahat"
+        },
+        {
+            "id": "229",
+            "ENG": "tree",
+            "TR": "ağaç"
+        },
+        {
+            "id": "230",
+            "ENG": "trousers",
+            "TR": "pantolon"
+        },
+        {
+            "id": "231",
+            "ENG": "turn",
+            "TR": "dönmek"
+        },
+        {
+            "id": "232",
+            "ENG": "ugly",
+            "TR": "çirkin"
+        },
+        {
+            "id": "233",
+            "ENG": "umbrella",
+            "TR": "şemsiye"
+        },
+        {
+            "id": "234",
+            "ENG": "uncle",
+            "TR": "amca-dayı"
+        },
+        {
+            "id": "235",
+            "ENG": "understand",
+            "TR": "anlamak"
+        },
+        {
+            "id": "236",
+            "ENG": "underwear",
+            "TR": "iç çamaşırı"
+        },
+        {
+            "id": "237",
+            "ENG": "waiter",
+            "TR": "garson"
+        },
+        {
+            "id": "238",
+            "ENG": "wall",
+            "TR": "duvar"
+        },
+        {
+            "id": "239",
+            "ENG": "watermelon",
+            "TR": "karpuz"
+        },
+        {
+            "id": "240",
+            "ENG": "way",
+            "TR": "yol"
+        },
+        {
+            "id": "241",
+            "ENG": "weak",
+            "TR": "güçsüz"
+        },
+        {
+            "id": "242",
+            "ENG": "wear",
+            "TR": "giyinmek"
+        },
+        {
+            "id": "243",
+            "ENG": "week",
+            "TR": "hafta"
+        },
+        {
+            "id": "244",
+            "ENG": "wind",
+            "TR": "rüzgar"
+        },
+        {
+            "id": "245",
+            "ENG": "winter",
+            "TR": "kış"
+        },
+        {
+            "id": "246",
+            "ENG": "wonderful",
+            "TR": "harika"
+        },
+        {
+            "id": "247",
+            "ENG": "word",
+            "TR": "kelime"
+        },
+        {
+            "id": "248",
+            "ENG": "zoo",
+            "TR": "hayvanat bahçesi"
+        },
+        {
+            "id": "249",
+            "ENG": "abroad",
+            "TR": "yurt dışı"
+        },
+        {
+            "id": "250",
+            "ENG": "accept",
+            "TR": "kabul etmek"
+        },
+        {
+            "id": "251",
+            "ENG": "accident",
+            "TR": "kaza"
+        },
+        {
+            "id": "252",
+            "ENG": "adventure",
+            "TR": "macera"
+        },
+        {
+            "id": "253",
+            "ENG": "agree",
+            "TR": "katılmak(bir düşünceye)"
+        },
+        {
+            "id": "254",
+            "ENG": "anniversary",
+            "TR": "yıl dönümü"
+        },
+        {
+            "id": "255",
+            "ENG": "ant",
+            "TR": "karınca"
+        },
+        {
+            "id": "256",
+            "ENG": "area",
+            "TR": "bölge"
+        },
+        {
+            "id": "257",
+            "ENG": "argue",
+            "TR": "tartışmak"
+        },
+        {
+            "id": "258",
+            "ENG": "arm",
+            "TR": "kol"
+        },
+        {
+            "id": "259",
+            "ENG": "backgammon",
+            "TR": "tavla"
+        },
+        {
+            "id": "260",
+            "ENG": "begin",
+            "TR": "başlamak"
+        },
+        {
+            "id": "261",
+            "ENG": "believe",
+            "TR": "inanmak"
+        },
+        {
+            "id": "262",
+            "ENG": "bell",
+            "TR": "zil"
+        },
+        {
+            "id": "263",
+            "ENG": "bite",
+            "TR": "ısırmak"
+        },
+        {
+            "id": "264",
+            "ENG": "blanket",
+            "TR": "battaniye"
+        },
+        {
+            "id": "265",
+            "ENG": "brain",
+            "TR": "beyin"
+        },
+        {
+            "id": "266",
+            "ENG": "bring",
+            "TR": "getirmek"
+        },
+        {
+            "id": "267",
+            "ENG": "business",
+            "TR": "iş"
+        },
+        {
+            "id": "268",
+            "ENG": "busy",
+            "TR": "meşgul"
+        },
+        {
+            "id": "269",
+            "ENG": "cable",
+            "TR": "kablo"
+        },
+        {
+            "id": "270",
+            "ENG": "can",
+            "TR": "konserve kutusu"
+        },
+        {
+            "id": "271",
+            "ENG": "cap",
+            "TR": "kasket,başlık"
+        },
+        {
+            "id": "272",
+            "ENG": "cash",
+            "TR": "nakit para"
+        },
+        {
+            "id": "273",
+            "ENG": "catch",
+            "TR": "yakalamak"
+        },
+        {
+            "id": "274",
+            "ENG": "chance",
+            "TR": "şans,imkan"
+        },
+        {
+            "id": "275",
+            "ENG": "changing room",
+            "TR": "soyunma odası"
+        },
+        {
+            "id": "276",
+            "ENG": "chess",
+            "TR": "satranç"
+        },
+        {
+            "id": "277",
+            "ENG": "chewing gum",
+            "TR": "sakız"
+        },
+        {
+            "id": "278",
+            "ENG": "chin",
+            "TR": "çene"
+        },
+        {
+            "id": "279",
+            "ENG": "choose",
+            "TR": "seçmek"
+        },
+        {
+            "id": "280",
+            "ENG": "climb",
+            "TR": "tırmanmak"
+        },
+        {
+            "id": "281",
+            "ENG": "cloth",
+            "TR": "kıyafet"
+        },
+        {
+            "id": "282",
+            "ENG": "collect",
+            "TR": "toplamak"
+        },
+        {
+            "id": "283",
+            "ENG": "complete",
+            "TR": "tamamlamak"
+        },
+        {
+            "id": "284",
+            "ENG": "confused",
+            "TR": "kafası karışık,allak bullak"
+        },
+        {
+            "id": "285",
+            "ENG": "connect",
+            "TR": "bağlanmak"
+        },
+        {
+            "id": "286",
+            "ENG": "contact",
+            "TR": "irtibata geçmek"
+        },
+        {
+            "id": "287",
+            "ENG": "cookies",
+            "TR": "kurabiye"
+        },
+        {
+            "id": "288",
+            "ENG": "cool",
+            "TR": "havalı, serin"
+        },
+        {
+            "id": "289",
+            "ENG": "cost",
+            "TR": "tutar, maliyet"
+        },
+        {
+            "id": "290",
+            "ENG": "cotton",
+            "TR": "pamuk"
+        },
+        {
+            "id": "291",
+            "ENG": "couch",
+            "TR": "kanepe"
+        },
+        {
+            "id": "292",
+            "ENG": "cough",
+            "TR": "öksürmek"
+        },
+        {
+            "id": "293",
+            "ENG": "crazy",
+            "TR": "çılgın"
+        },
+        {
+            "id": "294",
+            "ENG": "curious",
+            "TR": "meraklı"
+        },
+        {
+            "id": "295",
+            "ENG": "customer",
+            "TR": "müşteri"
+        },
+        {
+            "id": "296",
+            "ENG": "cut",
+            "TR": "kesmek"
+        },
+        {
+            "id": "297",
+            "ENG": "cute",
+            "TR": "şirin"
+        },
+        {
+            "id": "298",
+            "ENG": "damage",
+            "TR": "zarar vermek"
+        },
+        {
+            "id": "299",
+            "ENG": "dangerous",
+            "TR": "tehlikeli"
+        },
+        {
+            "id": "300",
+            "ENG": "dead",
+            "TR": "ölü"
+        },
+        {
+            "id": "301",
+            "ENG": "decide",
+            "TR": "karar vermek"
+        },
+        {
+            "id": "302",
+            "ENG": "deep",
+            "TR": "derin"
+        },
+        {
+            "id": "303",
+            "ENG": "delete",
+            "TR": "silmek"
+        },
+        {
+            "id": "304",
+            "ENG": "delicious",
+            "TR": "lezzetli"
+        },
+        {
+            "id": "305",
+            "ENG": "describe",
+            "TR": "betimlemek"
+        },
+        {
+            "id": "306",
+            "ENG": "diamond",
+            "TR": "elmas"
+        },
+        {
+            "id": "307",
+            "ENG": "die",
+            "TR": "ölmek"
+        },
+        {
+            "id": "308",
+            "ENG": "direction",
+            "TR": "yön vermek"
+        },
+        {
+            "id": "309",
+            "ENG": "discover",
+            "TR": "keşfetmek"
+        },
+        {
+            "id": "310",
+            "ENG": "discuss",
+            "TR": "tartışmak"
+        },
+        {
+            "id": "311",
+            "ENG": "disturb",
+            "TR": "rahatsız etmek"
+        },
+        {
+            "id": "312",
+            "ENG": "drawer",
+            "TR": "çekmece"
+        },
+        {
+            "id": "313",
+            "ENG": "dream",
+            "TR": "rüya"
+        },
+        {
+            "id": "314",
+            "ENG": "earring",
+            "TR": "küpe"
+        },
+        {
+            "id": "315",
+            "ENG": "elbow",
+            "TR": "dirsek"
+        },
+        {
+            "id": "316",
+            "ENG": "elevator",
+            "TR": "asansör"
+        },
+        {
+            "id": "317",
+            "ENG": "enjoy",
+            "TR": "tadını çıkarmak"
+        },
+        {
+            "id": "318",
+            "ENG": "entertainment",
+            "TR": "eğlence"
+        },
+        {
+            "id": "319",
+            "ENG": "equal",
+            "TR": "eşit"
+        },
+        {
+            "id": "320",
+            "ENG": "escape",
+            "TR": "çıkış,kaçış"
+        },
+        {
+            "id": "321",
+            "ENG": "excellent",
+            "TR": "muhteşem"
+        },
+        {
+            "id": "322",
+            "ENG": "exhausted",
+            "TR": "çok yorgun,tükenmiş"
+        },
+        {
+            "id": "323",
+            "ENG": "expensive",
+            "TR": "pahalı"
+        },
+        {
+            "id": "324",
+            "ENG": "experience",
+            "TR": "deneyim"
+        },
+        {
+            "id": "325",
+            "ENG": "explain",
+            "TR": "açıklamak"
+        },
+        {
+            "id": "326",
+            "ENG": "eyebrow",
+            "TR": "kaş"
+        },
+        {
+            "id": "327",
+            "ENG": "eyelash",
+            "TR": "kirpik"
+        },
+        {
+            "id": "328",
+            "ENG": "eyelid",
+            "TR": "göz kapağı"
+        },
+        {
+            "id": "329",
+            "ENG": "face",
+            "TR": "yüz"
+        },
+        {
+            "id": "330",
+            "ENG": "factory",
+            "TR": "fabrika"
+        },
+        {
+            "id": "331",
+            "ENG": "fail",
+            "TR": "başarısız olmak"
+        },
+        {
+            "id": "332",
+            "ENG": "famous",
+            "TR": "ünlü"
+        },
+        {
+            "id": "333",
+            "ENG": "fan",
+            "TR": "hayran"
+        },
+        {
+            "id": "334",
+            "ENG": "feel",
+            "TR": "hissetmek"
+        },
+        {
+            "id": "335",
+            "ENG": "female",
+            "TR": "kadın"
+        },
+        {
+            "id": "336",
+            "ENG": "fight",
+            "TR": "kavga etmek"
+        },
+        {
+            "id": "337",
+            "ENG": "fill",
+            "TR": "doldurmak"
+        },
+        {
+            "id": "338",
+            "ENG": "first aid",
+            "TR": "ilk yardım"
+        },
+        {
+            "id": "339",
+            "ENG": "flag",
+            "TR": "bayrak"
+        },
+        {
+            "id": "340",
+            "ENG": "flat",
+            "TR": "apartman dairesi"
+        },
+        {
+            "id": "341",
+            "ENG": "flour",
+            "TR": "un"
+        },
+        {
+            "id": "342",
+            "ENG": "fog",
+            "TR": "sis"
+        },
+        {
+            "id": "343",
+            "ENG": "follow",
+            "TR": "takip etmek"
+        },
+        {
+            "id": "344",
+            "ENG": "food",
+            "TR": "gıda, yiyecek"
+        },
+        {
+            "id": "345",
+            "ENG": "foreign",
+            "TR": "yabancı"
+        },
+        {
+            "id": "346",
+            "ENG": "formal",
+            "TR": "resmi"
+        },
+        {
+            "id": "347",
+            "ENG": "fresh",
+            "TR": "taze"
+        },
+        {
+            "id": "348",
+            "ENG": "front",
+            "TR": "ön"
+        },
+        {
+            "id": "349",
+            "ENG": "fuel",
+            "TR": "akaryakıt"
+        },
+        {
+            "id": "350",
+            "ENG": "furniture",
+            "TR": "mobilya"
+        },
+        {
+            "id": "351",
+            "ENG": "future",
+            "TR": "gelecek"
+        },
+        {
+            "id": "352",
+            "ENG": "garlic",
+            "TR": "sarımsak"
+        },
+        {
+            "id": "353",
+            "ENG": "gate",
+            "TR": "kapı"
+        },
+        {
+            "id": "354",
+            "ENG": "generous",
+            "TR": "cömert"
+        },
+        {
+            "id": "355",
+            "ENG": "gift",
+            "TR": "hediye"
+        },
+        {
+            "id": "356",
+            "ENG": "glad",
+            "TR": "mutlu"
+        },
+        {
+            "id": "357",
+            "ENG": "glove",
+            "TR": "eldiven"
+        },
+        {
+            "id": "358",
+            "ENG": "graduate",
+            "TR": "mezun olmak"
+        },
+        {
+            "id": "359",
+            "ENG": "grass",
+            "TR": "ot, çimen"
+        },
+        {
+            "id": "360",
+            "ENG": "grocer",
+            "TR": "bakkal,market"
+        },
+        {
+            "id": "361",
+            "ENG": "grow",
+            "TR": "büyümek,büyütmek"
+        },
+        {
+            "id": "362",
+            "ENG": "guide",
+            "TR": "rehber"
+        },
+        {
+            "id": "363",
+            "ENG": "hard",
+            "TR": "sert"
+        },
+        {
+            "id": "364",
+            "ENG": "harmful",
+            "TR": "zararlı"
+        },
+        {
+            "id": "365",
+            "ENG": "huge",
+            "TR": "çok büyük"
+        },
+        {
+            "id": "366",
+            "ENG": "idea",
+            "TR": "fikir"
+        },
+        {
+            "id": "367",
+            "ENG": "impossible",
+            "TR": "imkansız"
+        },
+        {
+            "id": "368",
+            "ENG": "insect",
+            "TR": "böcek"
+        },
+        {
+            "id": "369",
+            "ENG": "intelligent",
+            "TR": "akıllı,zeki"
+        },
+        {
+            "id": "370",
+            "ENG": "introduce",
+            "TR": "tanıtmak,tanıştırmak"
+        },
+        {
+            "id": "371",
+            "ENG": "invite",
+            "TR": "davet etmek"
+        },
+        {
+            "id": "372",
+            "ENG": "island",
+            "TR": "ada"
+        },
+        {
+            "id": "373",
+            "ENG": "jam",
+            "TR": "reçel"
+        },
+        {
+            "id": "374",
+            "ENG": "jar",
+            "TR": "kavanoz"
+        },
+        {
+            "id": "375",
+            "ENG": "join",
+            "TR": "katılmak"
+        },
+        {
+            "id": "376",
+            "ENG": "joke",
+            "TR": "şaka"
+        },
+        {
+            "id": "377",
+            "ENG": "journey",
+            "TR": "seyahat"
+        },
+        {
+            "id": "378",
+            "ENG": "juice",
+            "TR": "meyve suyu"
+        },
+        {
+            "id": "379",
+            "ENG": "jump",
+            "TR": "zıplamak"
+        },
+        {
+            "id": "380",
+            "ENG": "key",
+            "TR": "anahtar"
+        },
+        {
+            "id": "381",
+            "ENG": "kick",
+            "TR": "tekme"
+        },
+        {
+            "id": "382",
+            "ENG": "kind",
+            "TR": "kibar"
+        },
+        {
+            "id": "383",
+            "ENG": "knee",
+            "TR": "diz"
+        },
+        {
+            "id": "384",
+            "ENG": "knife",
+            "TR": "bıçak"
+        },
+        {
+            "id": "385",
+            "ENG": "lake",
+            "TR": "göl"
+        },
+        {
+            "id": "386",
+            "ENG": "lamb",
+            "TR": "kuzu"
+        },
+        {
+            "id": "387",
+            "ENG": "leather",
+            "TR": "deri"
+        },
+        {
+            "id": "388",
+            "ENG": "leg",
+            "TR": "bacak"
+        },
+        {
+            "id": "389",
+            "ENG": "lift",
+            "TR": "asansör"
+        },
+        {
+            "id": "390",
+            "ENG": "lip",
+            "TR": "dudak"
+        },
+        {
+            "id": "391",
+            "ENG": "lock",
+            "TR": "kilitlemek"
+        },
+        {
+            "id": "392",
+            "ENG": "lose",
+            "TR": "kaybetmek"
+        },
+        {
+            "id": "393",
+            "ENG": "loud",
+            "TR": "yüksek ses"
+        },
+        {
+            "id": "394",
+            "ENG": "lovely",
+            "TR": "sevimli"
+        },
+        {
+            "id": "395",
+            "ENG": "luck",
+            "TR": "şans"
+        },
+        {
+            "id": "396",
+            "ENG": "magic",
+            "TR": "sihir"
+        },
+        {
+            "id": "397",
+            "ENG": "mall",
+            "TR": "alışveriş merkezi"
+        },
+        {
+            "id": "398",
+            "ENG": "meat",
+            "TR": "et"
+        },
+        {
+            "id": "399",
+            "ENG": "medicine",
+            "TR": "ilaç"
+        },
+        {
+            "id": "400",
+            "ENG": "mend",
+            "TR": "tamir etmek"
+        },
+        {
+            "id": "401",
+            "ENG": "mixed",
+            "TR": "karışık"
+        },
+        {
+            "id": "402",
+            "ENG": "monkey",
+            "TR": "maymun"
+        },
+        {
+            "id": "403",
+            "ENG": "moon",
+            "TR": "ay"
+        },
+        {
+            "id": "404",
+            "ENG": "mountain",
+            "TR": "dağ"
+        },
+        {
+            "id": "405",
+            "ENG": "mouth",
+            "TR": "ağız"
+        },
+        {
+            "id": "406",
+            "ENG": "move",
+            "TR": "hareket etmek,taşınmak"
+        },
+        {
+            "id": "407",
+            "ENG": "nail clippers",
+            "TR": "tırnak makası"
+        },
+        {
+            "id": "408",
+            "ENG": "naughty",
+            "TR": "yaramaz"
+        },
+        {
+            "id": "409",
+            "ENG": "nervous",
+            "TR": "endişeli"
+        },
+        {
+            "id": "410",
+            "ENG": "noise",
+            "TR": "ses"
+        },
+        {
+            "id": "411",
+            "ENG": "novel",
+            "TR": "roman"
+        },
+        {
+            "id": "412",
+            "ENG": "ocean",
+            "TR": "okyanus"
+        },
+        {
+            "id": "413",
+            "ENG": "officer",
+            "TR": "memur, yetkili"
+        },
+        {
+            "id": "414",
+            "ENG": "oil",
+            "TR": "yağ"
+        },
+        {
+            "id": "415",
+            "ENG": "overweight",
+            "TR": "kilolu"
+        },
+        {
+            "id": "416",
+            "ENG": "pick",
+            "TR": "toplamak"
+        },
+        {
+            "id": "417",
+            "ENG": "plant",
+            "TR": "bitki"
+        },
+        {
+            "id": "418",
+            "ENG": "plate",
+            "TR": "tabak"
+        },
+        {
+            "id": "419",
+            "ENG": "poem",
+            "TR": "şiir"
+        },
+        {
+            "id": "420",
+            "ENG": "point",
+            "TR": "nokta"
+        },
+        {
+            "id": "421",
+            "ENG": "power",
+            "TR": "güç"
+        },
+        {
+            "id": "422",
+            "ENG": "prepare",
+            "TR": "hazırlamak"
+        },
+        {
+            "id": "423",
+            "ENG": "pretty",
+            "TR": "sevimli"
+        },
+        {
+            "id": "424",
+            "ENG": "price",
+            "TR": "fiyat"
+        },
+        {
+            "id": "425",
+            "ENG": "produce",
+            "TR": "üretmek"
+        },
+        {
+            "id": "426",
+            "ENG": "queen",
+            "TR": "kraliçe"
+        },
+        {
+            "id": "427",
+            "ENG": "reach",
+            "TR": "ulaşmak"
+        },
+        {
+            "id": "428",
+            "ENG": "reason",
+            "TR": "sebep"
+        },
+        {
+            "id": "429",
+            "ENG": "record",
+            "TR": "kaydetmek"
+        },
+        {
+            "id": "430",
+            "ENG": "refuse",
+            "TR": "reddetmek"
+        },
+        {
+            "id": "431",
+            "ENG": "relation",
+            "TR": "ilişki"
+        },
+        {
+            "id": "432",
+            "ENG": "relax",
+            "TR": "dinlenmek"
+        },
+        {
+            "id": "433",
+            "ENG": "remote control",
+            "TR": "kumanda"
+        },
+        {
+            "id": "434",
+            "ENG": "reply",
+            "TR": "cevaplamak"
+        },
+        {
+            "id": "435",
+            "ENG": "report",
+            "TR": "rapor etmek"
+        },
+        {
+            "id": "436",
+            "ENG": "retire",
+            "TR": "emekliye ayrılmak"
+        },
+        {
+            "id": "437",
+            "ENG": "rock",
+            "TR": "kaya"
+        },
+        {
+            "id": "438",
+            "ENG": "rope",
+            "TR": "ip"
+        },
+        {
+            "id": "439",
+            "ENG": "rude",
+            "TR": "kaba"
+        },
+        {
+            "id": "440",
+            "ENG": "rule",
+            "TR": "kural"
+        },
+        {
+            "id": "441",
+            "ENG": "safe",
+            "TR": "güvenli"
+        },
+        {
+            "id": "442",
+            "ENG": "salary",
+            "TR": "maaş"
+        },
+        {
+            "id": "443",
+            "ENG": "save",
+            "TR": "kaydetmek"
+        },
+        {
+            "id": "444",
+            "ENG": "scissors",
+            "TR": "makas"
+        },
+        {
+            "id": "445",
+            "ENG": "seat",
+            "TR": "koltuk"
+        },
+        {
+            "id": "446",
+            "ENG": "select",
+            "TR": "seçmek"
+        },
+        {
+            "id": "447",
+            "ENG": "send",
+            "TR": "göndermek"
+        },
+        {
+            "id": "448",
+            "ENG": "serious",
+            "TR": "ciddi"
+        },
+        {
+            "id": "449",
+            "ENG": "serve",
+            "TR": "servis yapmak"
+        },
+        {
+            "id": "450",
+            "ENG": "sharp",
+            "TR": "keskin,sivri"
+        },
+        {
+            "id": "451",
+            "ENG": "shine",
+            "TR": "parlamak"
+        },
+        {
+            "id": "452",
+            "ENG": "shoulder",
+            "TR": "omuz"
+        },
+        {
+            "id": "453",
+            "ENG": "shout",
+            "TR": "bağırmak"
+        },
+        {
+            "id": "454",
+            "ENG": "sign",
+            "TR": "imza atmak"
+        },
+        {
+            "id": "455",
+            "ENG": "silent",
+            "TR": "sessiz"
+        },
+        {
+            "id": "456",
+            "ENG": "simple",
+            "TR": "basit"
+        },
+        {
+            "id": "457",
+            "ENG": "situation",
+            "TR": "durum"
+        },
+        {
+            "id": "458",
+            "ENG": "ski",
+            "TR": "kayak"
+        },
+        {
+            "id": "459",
+            "ENG": "snake",
+            "TR": "yılan"
+        },
+        {
+            "id": "460",
+            "ENG": "soap",
+            "TR": "sabun"
+        },
+        {
+            "id": "461",
+            "ENG": "society",
+            "TR": "sosyete"
+        },
+        {
+            "id": "462",
+            "ENG": "soft",
+            "TR": "yumuşak"
+        },
+        {
+            "id": "463",
+            "ENG": "spider",
+            "TR": "örümcek"
+        },
+        {
+            "id": "464",
+            "ENG": "stand",
+            "TR": "ayakta durmak"
+        },
+        {
+            "id": "465",
+            "ENG": "stone",
+            "TR": "taş"
+        },
+        {
+            "id": "466",
+            "ENG": "storm",
+            "TR": "fırtına"
+        },
+        {
+            "id": "467",
+            "ENG": "subway",
+            "TR": "metro"
+        },
+        {
+            "id": "468",
+            "ENG": "sure",
+            "TR": "emin olmak"
+        },
+        {
+            "id": "469",
+            "ENG": "surprised",
+            "TR": "şaşırmış"
+        },
+        {
+            "id": "470",
+            "ENG": "tailor",
+            "TR": "terzi"
+        },
+        {
+            "id": "471",
+            "ENG": "taste",
+            "TR": "tatmak"
+        },
+        {
+            "id": "472",
+            "ENG": "team",
+            "TR": "takım"
+        },
+        {
+            "id": "473",
+            "ENG": "temperature",
+            "TR": "derece,ısı"
+        },
+        {
+            "id": "474",
+            "ENG": "tent",
+            "TR": "çadır"
+        },
+        {
+            "id": "475",
+            "ENG": "terrible",
+            "TR": "berbat"
+        },
+        {
+            "id": "476",
+            "ENG": "throw",
+            "TR": "atmak,fırlatmak"
+        },
+        {
+            "id": "477",
+            "ENG": "tiger",
+            "TR": "kaplan"
+        },
+        {
+            "id": "478",
+            "ENG": "tissue",
+            "TR": "kağıt mendil"
+        },
+        {
+            "id": "479",
+            "ENG": "tongue",
+            "TR": "dil"
+        },
+        {
+            "id": "480",
+            "ENG": "touch",
+            "TR": "dokumak"
+        },
+        {
+            "id": "481",
+            "ENG": "transport",
+            "TR": "nakil, taşıma"
+        },
+        {
+            "id": "482",
+            "ENG": "trouble",
+            "TR": "dert"
+        },
+        {
+            "id": "483",
+            "ENG": "try",
+            "TR": "denemek"
+        },
+        {
+            "id": "484",
+            "ENG": "usual",
+            "TR": "olağan"
+        },
+        {
+            "id": "485",
+            "ENG": "vacation",
+            "TR": "tatil"
+        },
+        {
+            "id": "486",
+            "ENG": "vacuum cleaner",
+            "TR": "elektrik süpürgesi"
+        },
+        {
+            "id": "487",
+            "ENG": "valuable",
+            "TR": "değerli"
+        },
+        {
+            "id": "488",
+            "ENG": "vegetable",
+            "TR": "sebze"
+        },
+        {
+            "id": "489",
+            "ENG": "view",
+            "TR": "manzara, görünüm"
+        },
+        {
+            "id": "490",
+            "ENG": "voice",
+            "TR": "ses"
+        },
+        {
+            "id": "491",
+            "ENG": "war",
+            "TR": "savaş"
+        },
+        {
+            "id": "492",
+            "ENG": "warm",
+            "TR": "ılık"
+        },
+        {
+            "id": "493",
+            "ENG": "warning",
+            "TR": "uyarı"
+        },
+        {
+            "id": "494",
+            "ENG": "weather",
+            "TR": "hava"
+        },
+        {
+            "id": "495",
+            "ENG": "wet",
+            "TR": "ıslak"
+        },
+        {
+            "id": "496",
+            "ENG": "win",
+            "TR": "kazanmak"
+        },
+        {
+            "id": "497",
+            "ENG": "wine",
+            "TR": "şarap"
+        },
+        {
+            "id": "498",
+            "ENG": "worry",
+            "TR": "endişe"
+        },
+        {
+            "id": "499",
+            "ENG": "accommodation",
+            "TR": "konaklama"
+        },
+        {
+            "id": "500",
+            "ENG": "addition",
+            "TR": "ek,ilave"
+        },
+        {
+            "id": "501",
+            "ENG": "admire",
+            "TR": "hayran olmak"
+        },
+        {
+            "id": "502",
+            "ENG": "adopt",
+            "TR": "evlat edinmek"
+        },
+        {
+            "id": "503",
+            "ENG": "adult",
+            "TR": "yetişkin"
+        },
+        {
+            "id": "504",
+            "ENG": "advertisement",
+            "TR": "reklam"
+        },
+        {
+            "id": "505",
+            "ENG": "advice",
+            "TR": "tavsiye"
+        },
+        {
+            "id": "506",
+            "ENG": "affection",
+            "TR": "şevkat"
+        },
+        {
+            "id": "507",
+            "ENG": "afford",
+            "TR": "maddi olanağa sahip olmak"
+        },
+        {
+            "id": "508",
+            "ENG": "allow",
+            "TR": "izin vermek"
+        },
+        {
+            "id": "509",
+            "ENG": "amount",
+            "TR": "miktar"
+        },
+        {
+            "id": "510",
+            "ENG": "annual",
+            "TR": "yıllık"
+        },
+        {
+            "id": "511",
+            "ENG": "anxious",
+            "TR": "tedirgin,endişeli"
+        },
+        {
+            "id": "512",
+            "ENG": "apologize",
+            "TR": "özür dilemek"
+        },
+        {
+            "id": "513",
+            "ENG": "appear",
+            "TR": "ortaya çıkmak"
+        },
+        {
+            "id": "514",
+            "ENG": "application",
+            "TR": "başvuru"
+        },
+        {
+            "id": "515",
+            "ENG": "apply",
+            "TR": "başvurmak"
+        },
+        {
+            "id": "516",
+            "ENG": "appointment",
+            "TR": "randevu"
+        },
+        {
+            "id": "517",
+            "ENG": "army",
+            "TR": "ordu"
+        },
+        {
+            "id": "518",
+            "ENG": "arrange",
+            "TR": "ayarlamak,düzenlemek"
+        },
+        {
+            "id": "519",
+            "ENG": "art",
+            "TR": "sanat"
+        },
+        {
+            "id": "520",
+            "ENG": "ashamed",
+            "TR": "utanmış"
+        },
+        {
+            "id": "521",
+            "ENG": "ashtray",
+            "TR": "küllük"
+        },
+        {
+            "id": "522",
+            "ENG": "attack",
+            "TR": "saldırmak"
+        },
+        {
+            "id": "523",
+            "ENG": "attend",
+            "TR": "katılmak"
+        },
+        {
+            "id": "524",
+            "ENG": "attention",
+            "TR": "dikkat"
+        },
+        {
+            "id": "525",
+            "ENG": "attract",
+            "TR": "etkilemek"
+        },
+        {
+            "id": "526",
+            "ENG": "average",
+            "TR": "ortalama"
+        },
+        {
+            "id": "527",
+            "ENG": "behave",
+            "TR": "davranmak"
+        },
+        {
+            "id": "528",
+            "ENG": "belief",
+            "TR": "inanç"
+        },
+        {
+            "id": "529",
+            "ENG": "belong",
+            "TR": "ait olmak"
+        },
+        {
+            "id": "530",
+            "ENG": "benefit",
+            "TR": "fayda"
+        },
+        {
+            "id": "531",
+            "ENG": "bet",
+            "TR": "bahis"
+        },
+        {
+            "id": "532",
+            "ENG": "bleed",
+            "TR": "kanamak"
+        },
+        {
+            "id": "533",
+            "ENG": "blood",
+            "TR": "kan"
+        },
+        {
+            "id": "534",
+            "ENG": "boarding time",
+            "TR": "biniş zamanı"
+        },
+        {
+            "id": "535",
+            "ENG": "boarding card",
+            "TR": "biniş kartı"
+        },
+        {
+            "id": "536",
+            "ENG": "bone",
+            "TR": "kemik"
+        },
+        {
+            "id": "537",
+            "ENG": "brake",
+            "TR": "fren"
+        },
+        {
+            "id": "538",
+            "ENG": "brand",
+            "TR": "marka"
+        },
+        {
+            "id": "539",
+            "ENG": "brief",
+            "TR": "kısa"
+        },
+        {
+            "id": "540",
+            "ENG": "bright",
+            "TR": "parlak"
+        },
+        {
+            "id": "541",
+            "ENG": "bulb",
+            "TR": "ampul"
+        },
+        {
+            "id": "542",
+            "ENG": "burglar",
+            "TR": "soyguncu"
+        },
+        {
+            "id": "543",
+            "ENG": "calm",
+            "TR": "sakin"
+        },
+        {
+            "id": "544",
+            "ENG": "cancel",
+            "TR": "iptal etmek"
+        },
+        {
+            "id": "545",
+            "ENG": "certain",
+            "TR": "kesin"
+        },
+        {
+            "id": "546",
+            "ENG": "citizen",
+            "TR": "vatandaş"
+        },
+        {
+            "id": "547",
+            "ENG": "coach",
+            "TR": "koç, antrenör"
+        },
+        {
+            "id": "548",
+            "ENG": "coast",
+            "TR": "kıyı"
+        },
+        {
+            "id": "549",
+            "ENG": "coin",
+            "TR": "madeni para"
+        },
+        {
+            "id": "550",
+            "ENG": "comb",
+            "TR": "tarak"
+        },
+        {
+            "id": "551",
+            "ENG": "common",
+            "TR": "yaygın"
+        },
+        {
+            "id": "552",
+            "ENG": "communicate",
+            "TR": "iletişim kurmak"
+        },
+        {
+            "id": "553",
+            "ENG": "compare",
+            "TR": "kıyaslamak"
+        },
+        {
+            "id": "554",
+            "ENG": "complain",
+            "TR": "şikayet etmek"
+        },
+        {
+            "id": "555",
+            "ENG": "connected flight",
+            "TR": "aktarmalı uçuş"
+        },
+        {
+            "id": "556",
+            "ENG": "consist",
+            "TR": "oluşmak"
+        },
+        {
+            "id": "557",
+            "ENG": "contain",
+            "TR": "içermek"
+        },
+        {
+            "id": "558",
+            "ENG": "convince",
+            "TR": "ikna etmek"
+        },
+        {
+            "id": "559",
+            "ENG": "count",
+            "TR": "saymak"
+        },
+        {
+            "id": "560",
+            "ENG": "crime",
+            "TR": "suç"
+        },
+        {
+            "id": "561",
+            "ENG": "criticize",
+            "TR": "eleştiri yapmak"
+        },
+        {
+            "id": "562",
+            "ENG": "curtain",
+            "TR": "perde"
+        },
+        {
+            "id": "563",
+            "ENG": "death",
+            "TR": "ölüm"
+        },
+        {
+            "id": "564",
+            "ENG": "decrease",
+            "TR": "azalmak"
+        },
+        {
+            "id": "565",
+            "ENG": "defend",
+            "TR": "savunmak"
+        },
+        {
+            "id": "566",
+            "ENG": "departure gate",
+            "TR": "çıkış kapısı"
+        },
+        {
+            "id": "567",
+            "ENG": "destination",
+            "TR": "varış"
+        },
+        {
+            "id": "568",
+            "ENG": "destroy",
+            "TR": "yok etmek"
+        },
+        {
+            "id": "569",
+            "ENG": "detail",
+            "TR": "detay"
+        },
+        {
+            "id": "570",
+            "ENG": "development",
+            "TR": "gelişim"
+        },
+        {
+            "id": "571",
+            "ENG": "disagree",
+            "TR": "aynı fikirde olmamak"
+        },
+        {
+            "id": "572",
+            "ENG": "discount",
+            "TR": "indirim"
+        },
+        {
+            "id": "573",
+            "ENG": "disease",
+            "TR": "hastalık"
+        },
+        {
+            "id": "574",
+            "ENG": "dive",
+            "TR": "dalmak"
+        },
+        {
+            "id": "575",
+            "ENG": "divide",
+            "TR": "bölmek"
+        },
+        {
+            "id": "576",
+            "ENG": "domestic flight",
+            "TR": "iç hat uçuşu"
+        },
+        {
+            "id": "577",
+            "ENG": "drop",
+            "TR": "düşürmek"
+        },
+        {
+            "id": "578",
+            "ENG": "drug",
+            "TR": "ilaç,uyuşturucu"
+        },
+        {
+            "id": "579",
+            "ENG": "dry",
+            "TR": "kuru"
+        },
+        {
+            "id": "580",
+            "ENG": "duty",
+            "TR": "görev"
+        },
+        {
+            "id": "581",
+            "ENG": "earthquake",
+            "TR": "deprem"
+        },
+        {
+            "id": "582",
+            "ENG": "education",
+            "TR": "eğitim"
+        },
+        {
+            "id": "583",
+            "ENG": "effort",
+            "TR": "çaba"
+        },
+        {
+            "id": "584",
+            "ENG": "elegant",
+            "TR": "zarif"
+        },
+        {
+            "id": "585",
+            "ENG": "employer",
+            "TR": "işveren"
+        },
+        {
+            "id": "586",
+            "ENG": "engine",
+            "TR": "motor"
+        },
+        {
+            "id": "587",
+            "ENG": "environment",
+            "TR": "çevre"
+        },
+        {
+            "id": "588",
+            "ENG": "event",
+            "TR": "etkinlik,olay"
+        },
+        {
+            "id": "589",
+            "ENG": "excuse",
+            "TR": "mazeret"
+        },
+        {
+            "id": "590",
+            "ENG": "expect",
+            "TR": "ummak"
+        },
+        {
+            "id": "591",
+            "ENG": "explosion",
+            "TR": "patlama"
+        },
+        {
+            "id": "592",
+            "ENG": "express",
+            "TR": "ifade etmek"
+        },
+        {
+            "id": "593",
+            "ENG": "fact",
+            "TR": "gerçek"
+        },
+        {
+            "id": "594",
+            "ENG": "fair",
+            "TR": "adil"
+        },
+        {
+            "id": "595",
+            "ENG": "fear",
+            "TR": "korkmak"
+        },
+        {
+            "id": "596",
+            "ENG": "feed",
+            "TR": "beslemek"
+        },
+        {
+            "id": "597",
+            "ENG": "field",
+            "TR": "tarla"
+        },
+        {
+            "id": "598",
+            "ENG": "fist",
+            "TR": "yumruk"
+        },
+        {
+            "id": "599",
+            "ENG": "fold",
+            "TR": "katlamak"
+        },
+        {
+            "id": "600",
+            "ENG": "force",
+            "TR": "zorlamak"
+        },
+        {
+            "id": "601",
+            "ENG": "forgive",
+            "TR": "affetmek"
+        },
+        {
+            "id": "602",
+            "ENG": "funeral",
+            "TR": "cenaze"
+        },
+        {
+            "id": "603",
+            "ENG": "gentle",
+            "TR": "nazik"
+        },
+        {
+            "id": "604",
+            "ENG": "governor",
+            "TR": "vali"
+        },
+        {
+            "id": "605",
+            "ENG": "ground",
+            "TR": "zemin"
+        },
+        {
+            "id": "606",
+            "ENG": "guess",
+            "TR": "tahmin etmek"
+        },
+        {
+            "id": "607",
+            "ENG": "guilty",
+            "TR": "suçlu"
+        },
+        {
+            "id": "608",
+            "ENG": "harbour",
+            "TR": "liman"
+        },
+        {
+            "id": "609",
+            "ENG": "hardware",
+            "TR": "donanım"
+        },
+        {
+            "id": "610",
+            "ENG": "headlight",
+            "TR": "far"
+        },
+        {
+            "id": "611",
+            "ENG": "hide",
+            "TR": "saklamak"
+        },
+        {
+            "id": "612",
+            "ENG": "hit",
+            "TR": "çarpmak"
+        },
+        {
+            "id": "613",
+            "ENG": "hold",
+            "TR": "tutmak"
+        },
+        {
+            "id": "614",
+            "ENG": "honest",
+            "TR": "dürüst"
+        },
+        {
+            "id": "615",
+            "ENG": "hope",
+            "TR": "ummak"
+        },
+        {
+            "id": "616",
+            "ENG": "host",
+            "TR": "misafir etmek"
+        },
+        {
+            "id": "617",
+            "ENG": "humour",
+            "TR": "espri,mizaç"
+        },
+        {
+            "id": "618",
+            "ENG": "hurt",
+            "TR": "incitmek"
+        },
+        {
+            "id": "619",
+            "ENG": "imagine",
+            "TR": "hayal etmek"
+        },
+        {
+            "id": "620",
+            "ENG": "import",
+            "TR": "ithal etmek"
+        },
+        {
+            "id": "621",
+            "ENG": "improve",
+            "TR": "geliştirmek"
+        },
+        {
+            "id": "622",
+            "ENG": "inform",
+            "TR": "bilgilendirmek"
+        },
+        {
+            "id": "623",
+            "ENG": "injection",
+            "TR": "enjektsiyon"
+        },
+        {
+            "id": "624",
+            "ENG": "ink",
+            "TR": "mürekkep"
+        },
+        {
+            "id": "625",
+            "ENG": "insist",
+            "TR": "ısrar etmek"
+        },
+        {
+            "id": "626",
+            "ENG": "interview",
+            "TR": "röportaj"
+        },
+        {
+            "id": "627",
+            "ENG": "invent",
+            "TR": "icat etmek"
+        },
+        {
+            "id": "628",
+            "ENG": "invest",
+            "TR": "yaptırım yapmak"
+        },
+        {
+            "id": "629",
+            "ENG": "jealous",
+            "TR": "kıskanç"
+        },
+        {
+            "id": "630",
+            "ENG": "jewel",
+            "TR": "mücevher"
+        },
+        {
+            "id": "631",
+            "ENG": "law",
+            "TR": "yasa"
+        },
+        {
+            "id": "632",
+            "ENG": "leaf",
+            "TR": "yaprak"
+        },
+        {
+            "id": "633",
+            "ENG": "let",
+            "TR": "izin vermek"
+        },
+        {
+            "id": "634",
+            "ENG": "lie",
+            "TR": "yalan söylemek"
+        },
+        {
+            "id": "635",
+            "ENG": "liquid",
+            "TR": "sıvı"
+        },
+        {
+            "id": "636",
+            "ENG": "load",
+            "TR": "yüklemek"
+        },
+        {
+            "id": "637",
+            "ENG": "low",
+            "TR": "alçak"
+        },
+        {
+            "id": "638",
+            "ENG": "luggage",
+            "TR": "bagaj"
+        },
+        {
+            "id": "639",
+            "ENG": "measure",
+            "TR": "ölçmek"
+        },
+        {
+            "id": "640",
+            "ENG": "member",
+            "TR": "üye"
+        },
+        {
+            "id": "641",
+            "ENG": "memory",
+            "TR": "bellek,hafıza"
+        },
+        {
+            "id": "642",
+            "ENG": "military",
+            "TR": "askeri"
+        },
+        {
+            "id": "643",
+            "ENG": "mind",
+            "TR": "akıl"
+        },
+        {
+            "id": "644",
+            "ENG": "minister",
+            "TR": "bakan"
+        },
+        {
+            "id": "645",
+            "ENG": "mosque",
+            "TR": "cami"
+        },
+        {
+            "id": "646",
+            "ENG": "murder",
+            "TR": "cinayet işlemek"
+        },
+        {
+            "id": "647",
+            "ENG": "muscle",
+            "TR": "kas"
+        },
+        {
+            "id": "648",
+            "ENG": "narrow",
+            "TR": "dar"
+        },
+        {
+            "id": "649",
+            "ENG": "necessary",
+            "TR": "gerekli"
+        },
+        {
+            "id": "650",
+            "ENG": "neck",
+            "TR": "boyun"
+        },
+        {
+            "id": "651",
+            "ENG": "obey",
+            "TR": "itaat etmek"
+        },
+        {
+            "id": "652",
+            "ENG": "offer",
+            "TR": "teklif etmek"
+        },
+        {
+            "id": "653",
+            "ENG": "official",
+            "TR": "resmi"
+        },
+        {
+            "id": "654",
+            "ENG": "opinion",
+            "TR": "fikir"
+        },
+        {
+            "id": "655",
+            "ENG": "order",
+            "TR": "emretmek"
+        },
+        {
+            "id": "656",
+            "ENG": "out-of-date",
+            "TR": "tarihi geçmiş"
+        },
+        {
+            "id": "657",
+            "ENG": "owe",
+            "TR": "borcu olmak"
+        },
+        {
+            "id": "658",
+            "ENG": "own",
+            "TR": "sahip olmak"
+        },
+        {
+            "id": "659",
+            "ENG": "pain",
+            "TR": "ağrı"
+        },
+        {
+            "id": "660",
+            "ENG": "palace",
+            "TR": "saray"
+        },
+        {
+            "id": "661",
+            "ENG": "passenger",
+            "TR": "yolcu"
+        },
+        {
+            "id": "662",
+            "ENG": "pavement",
+            "TR": "kaldırım"
+        },
+        {
+            "id": "663",
+            "ENG": "peace",
+            "TR": "barış"
+        },
+        {
+            "id": "664",
+            "ENG": "penalty",
+            "TR": "ceza"
+        },
+        {
+            "id": "665",
+            "ENG": "perform",
+            "TR": "yerine getirmek"
+        },
+        {
+            "id": "666",
+            "ENG": "permission",
+            "TR": "izin"
+        },
+        {
+            "id": "667",
+            "ENG": "pig",
+            "TR": "domuz"
+        },
+        {
+            "id": "668",
+            "ENG": "pill",
+            "TR": "hap"
+        },
+        {
+            "id": "669",
+            "ENG": "pleasant",
+            "TR": "hoş"
+        },
+        {
+            "id": "670",
+            "ENG": "plug",
+            "TR": "elektrik fişi"
+        },
+        {
+            "id": "671",
+            "ENG": "poison",
+            "TR": "zehir"
+        },
+        {
+            "id": "672",
+            "ENG": "population",
+            "TR": "nufus"
+        },
+        {
+            "id": "673",
+            "ENG": "prefer",
+            "TR": "tercih etmek"
+        },
+        {
+            "id": "674",
+            "ENG": "pregnant",
+            "TR": "hamile"
+        },
+        {
+            "id": "675",
+            "ENG": "press",
+            "TR": "sıkıştırmak"
+        },
+        {
+            "id": "676",
+            "ENG": "prime minister",
+            "TR": "başbakan"
+        },
+        {
+            "id": "677",
+            "ENG": "private",
+            "TR": "özel"
+        },
+        {
+            "id": "678",
+            "ENG": "promise",
+            "TR": "söz vermek"
+        },
+        {
+            "id": "679",
+            "ENG": "protect",
+            "TR": "korumak"
+        },
+        {
+            "id": "680",
+            "ENG": "protest",
+            "TR": "protesto etmek"
+        },
+        {
+            "id": "681",
+            "ENG": "provide",
+            "TR": "sağlamak"
+        },
+        {
+            "id": "682",
+            "ENG": "public",
+            "TR": "halka açık"
+        },
+        {
+            "id": "683",
+            "ENG": "publish",
+            "TR": "yayınlamak"
+        },
+        {
+            "id": "684",
+            "ENG": "punish",
+            "TR": "cezalandırmak"
+        },
+        {
+            "id": "685",
+            "ENG": "purchase",
+            "TR": "satın almak"
+        },
+        {
+            "id": "686",
+            "ENG": "purpose",
+            "TR": "amaç"
+        },
+        {
+            "id": "687",
+            "ENG": "quit",
+            "TR": "bırakmak"
+        },
+        {
+            "id": "688",
+            "ENG": "rate",
+            "TR": "oran"
+        },
+        {
+            "id": "689",
+            "ENG": "realize",
+            "TR": "fark etmek"
+        },
+        {
+            "id": "690",
+            "ENG": "recover",
+            "TR": "iyileşmek"
+        },
+        {
+            "id": "691",
+            "ENG": "regular",
+            "TR": "düzenli"
+        },
+        {
+            "id": "692",
+            "ENG": "remind",
+            "TR": "hatırlatmak"
+        },
+        {
+            "id": "693",
+            "ENG": "remove",
+            "TR": "ortadan kaldırmak"
+        },
+        {
+            "id": "694",
+            "ENG": "resign",
+            "TR": "istifa etmek"
+        },
+        {
+            "id": "695",
+            "ENG": "responsible",
+            "TR": "sorumlu"
+        },
+        {
+            "id": "696",
+            "ENG": "result",
+            "TR": "sonuç"
+        },
+        {
+            "id": "697",
+            "ENG": "root",
+            "TR": "kök"
+        },
+        {
+            "id": "698",
+            "ENG": "search",
+            "TR": "aramak"
+        },
+        {
+            "id": "699",
+            "ENG": "seatbelt",
+            "TR": "emniyet kemeri"
+        },
+        {
+            "id": "700",
+            "ENG": "secret",
+            "TR": "sır"
+        },
+        {
+            "id": "701",
+            "ENG": "seem",
+            "TR": "görünmek"
+        },
+        {
+            "id": "702",
+            "ENG": "shoot",
+            "TR": "vurmak"
+        },
+        {
+            "id": "703",
+            "ENG": "shoplifting",
+            "TR": "aşırmak"
+        },
+        {
+            "id": "704",
+            "ENG": "shut",
+            "TR": "kapatmak"
+        },
+        {
+            "id": "705",
+            "ENG": "signature",
+            "TR": "imza"
+        },
+        {
+            "id": "706",
+            "ENG": "silk",
+            "TR": "ipek"
+        },
+        {
+            "id": "707",
+            "ENG": "size",
+            "TR": "beden"
+        },
+        {
+            "id": "708",
+            "ENG": "skill",
+            "TR": "yetenek"
+        },
+        {
+            "id": "709",
+            "ENG": "skin",
+            "TR": "ten, deri"
+        },
+        {
+            "id": "710",
+            "ENG": "sneeze",
+            "TR": "hapşırmak"
+        },
+        {
+            "id": "711",
+            "ENG": "snore",
+            "TR": "horlamak"
+        },
+        {
+            "id": "712",
+            "ENG": "socket",
+            "TR": "duy,priz"
+        },
+        {
+            "id": "713",
+            "ENG": "soldier",
+            "TR": "asker"
+        },
+        {
+            "id": "714",
+            "ENG": "solve",
+            "TR": "çözmek"
+        },
+        {
+            "id": "715",
+            "ENG": "souvenir",
+            "TR": "hediyelik eşya"
+        },
+        {
+            "id": "716",
+            "ENG": "space",
+            "TR": "uzay boşluğu"
+        },
+        {
+            "id": "717",
+            "ENG": "spy",
+            "TR": "casus"
+        },
+        {
+            "id": "718",
+            "ENG": "staff",
+            "TR": "görevli personel"
+        },
+        {
+            "id": "719",
+            "ENG": "stage",
+            "TR": "sahne"
+        },
+        {
+            "id": "720",
+            "ENG": "stare",
+            "TR": "dik dik bakmak"
+        },
+        {
+            "id": "721",
+            "ENG": "stationery",
+            "TR": "kırtasiye"
+        },
+        {
+            "id": "722",
+            "ENG": "steal",
+            "TR": "çalmak"
+        },
+        {
+            "id": "723",
+            "ENG": "steward",
+            "TR": "hostes"
+        },
+        {
+            "id": "724",
+            "ENG": "stomach",
+            "TR": "mide"
+        },
+        {
+            "id": "725",
+            "ENG": "strange",
+            "TR": "garip"
+        },
+        {
+            "id": "726",
+            "ENG": "stranger",
+            "TR": "yabancı"
+        },
+        {
+            "id": "727",
+            "ENG": "sudden",
+            "TR": "ani"
+        },
+        {
+            "id": "728",
+            "ENG": "suffer",
+            "TR": "acı çekmek"
+        },
+        {
+            "id": "729",
+            "ENG": "suggest",
+            "TR": "önermek"
+        },
+        {
+            "id": "730",
+            "ENG": "support",
+            "TR": "desteklemek"
+        },
+        {
+            "id": "731",
+            "ENG": "survive",
+            "TR": "hayatta kalmak"
+        },
+        {
+            "id": "732",
+            "ENG": "tail",
+            "TR": "kuyruk"
+        },
+        {
+            "id": "733",
+            "ENG": "take off",
+            "TR": "(uçak)havalanmak"
+        },
+        {
+            "id": "734",
+            "ENG": "target",
+            "TR": "hedef"
+        },
+        {
+            "id": "735",
+            "ENG": "temporary",
+            "TR": "geçici"
+        },
+        {
+            "id": "736",
+            "ENG": "tiny",
+            "TR": "küçücük"
+        },
+        {
+            "id": "737",
+            "ENG": "tool",
+            "TR": "alet"
+        },
+        {
+            "id": "738",
+            "ENG": "trade",
+            "TR": "ticaret"
+        },
+        {
+            "id": "739",
+            "ENG": "translate",
+            "TR": "tercüme etmek"
+        },
+        {
+            "id": "740",
+            "ENG": "trip",
+            "TR": "gezi"
+        },
+        {
+            "id": "741",
+            "ENG": "truck",
+            "TR": "kamyon"
+        },
+        {
+            "id": "742",
+            "ENG": "trust",
+            "TR": "güvenmek"
+        },
+        {
+            "id": "743",
+            "ENG": "tyre",
+            "TR": "lastik"
+        },
+        {
+            "id": "744",
+            "ENG": "update",
+            "TR": "güncellemek"
+        },
+        {
+            "id": "745",
+            "ENG": "vote",
+            "TR": "oy kullanmak"
+        },
+        {
+            "id": "746",
+            "ENG": "wide",
+            "TR": "geniş"
+        },
+        {
+            "id": "747",
+            "ENG": "wish",
+            "TR": "dilek"
+        },
+        {
+            "id": "748",
+            "ENG": "wonder",
+            "TR": "merak etmek"
+        },
+        {
+            "id": "749",
+            "ENG": "account",
+            "TR": "borç hesapları"
+        },
+        {
+            "id": "750",
+            "ENG": "accounts payable",
+            "TR": "alacak hesapları"
+        },
+        {
+            "id": "751",
+            "ENG": "accounts receivable",
+            "TR": "borçlular hesabı"
+        },
+        {
+            "id": "752",
+            "ENG": "accuse",
+            "TR": "suçlamak"
+        },
+        {
+            "id": "753",
+            "ENG": "achievement",
+            "TR": "başarı"
+        },
+        {
+            "id": "754",
+            "ENG": "adjust",
+            "TR": "ayarlamak"
+        },
+        {
+            "id": "755",
+            "ENG": "admit",
+            "TR": "kabul etmek"
+        },
+        {
+            "id": "756",
+            "ENG": "advertise",
+            "TR": "reklam yapmak"
+        },
+        {
+            "id": "757",
+            "ENG": "advocate",
+            "TR": "avukat"
+        },
+        {
+            "id": "758",
+            "ENG": "affair",
+            "TR": "ilişki"
+        },
+        {
+            "id": "759",
+            "ENG": "agreement",
+            "TR": "anlaşma"
+        },
+        {
+            "id": "760",
+            "ENG": "agriculture",
+            "TR": "tarım"
+        },
+        {
+            "id": "761",
+            "ENG": "aim",
+            "TR": "hedef"
+        },
+        {
+            "id": "762",
+            "ENG": "aisle",
+            "TR": "geçit"
+        },
+        {
+            "id": "763",
+            "ENG": "allowance",
+            "TR": "nafaka"
+        },
+        {
+            "id": "764",
+            "ENG": "ambassador",
+            "TR": "büyükelçi"
+        },
+        {
+            "id": "765",
+            "ENG": "amusement",
+            "TR": "eğlence"
+        },
+        {
+            "id": "766",
+            "ENG": "ancient",
+            "TR": "antik"
+        },
+        {
+            "id": "767",
+            "ENG": "anticipate",
+            "TR": "ummak"
+        },
+        {
+            "id": "768",
+            "ENG": "apparent",
+            "TR": "açık,belli"
+        },
+        {
+            "id": "769",
+            "ENG": "appearance",
+            "TR": "görünüş"
+        },
+        {
+            "id": "770",
+            "ENG": "appreciate",
+            "TR": "takdir etmek"
+        },
+        {
+            "id": "771",
+            "ENG": "appropriate",
+            "TR": "uygun"
+        },
+        {
+            "id": "772",
+            "ENG": "approve",
+            "TR": "kabul etmek,onaylamak"
+        },
+        {
+            "id": "773",
+            "ENG": "argument",
+            "TR": "tartışma"
+        },
+        {
+            "id": "774",
+            "ENG": "arrest",
+            "TR": "tutuklamak"
+        },
+        {
+            "id": "775",
+            "ENG": "audience",
+            "TR": "seyirci"
+        },
+        {
+            "id": "776",
+            "ENG": "avoid",
+            "TR": "uzak durmak,kaçınmak"
+        },
+        {
+            "id": "777",
+            "ENG": "baggage claim",
+            "TR": "bagaj alım"
+        },
+        {
+            "id": "778",
+            "ENG": "balance sheet",
+            "TR": "bilanço"
+        },
+        {
+            "id": "779",
+            "ENG": "bank account",
+            "TR": "banka hesabı"
+        },
+        {
+            "id": "780",
+            "ENG": "bankrupt",
+            "TR": "iflas etmiş"
+        },
+        {
+            "id": "781",
+            "ENG": "bargain",
+            "TR": "pazarlık yapmak"
+        },
+        {
+            "id": "782",
+            "ENG": "beg",
+            "TR": "yalvarmak"
+        },
+        {
+            "id": "783",
+            "ENG": "beggar",
+            "TR": "dilenci"
+        },
+        {
+            "id": "784",
+            "ENG": "blame",
+            "TR": "suçlamak"
+        },
+        {
+            "id": "785",
+            "ENG": "board of directors",
+            "TR": "yönetim kurulu"
+        },
+        {
+            "id": "786",
+            "ENG": "breath",
+            "TR": "nefes"
+        },
+        {
+            "id": "787",
+            "ENG": "bribe",
+            "TR": "rüşvet vermek"
+        },
+        {
+            "id": "788",
+            "ENG": "budget",
+            "TR": "bütçe"
+        },
+        {
+            "id": "789",
+            "ENG": "candidate",
+            "TR": "aday"
+        },
+        {
+            "id": "790",
+            "ENG": "cash flow",
+            "TR": "para akışı"
+        },
+        {
+            "id": "791",
+            "ENG": "cemetery",
+            "TR": "mezarlık"
+        },
+        {
+            "id": "792",
+            "ENG": "chamber of commerce",
+            "TR": "ticaret odası"
+        },
+        {
+            "id": "793",
+            "ENG": "charge",
+            "TR": "ücretlendirmek"
+        },
+        {
+            "id": "794",
+            "ENG": "charming",
+            "TR": "çekici"
+        },
+        {
+            "id": "795",
+            "ENG": "Chief Executive",
+            "TR": "genel müdür"
+        },
+        {
+            "id": "796",
+            "ENG": "circumstance",
+            "TR": "durum"
+        },
+        {
+            "id": "797",
+            "ENG": "claim",
+            "TR": "iddia etmek"
+        },
+        {
+            "id": "798",
+            "ENG": "clerk",
+            "TR": "tezgahtar"
+        },
+        {
+            "id": "799",
+            "ENG": "client",
+            "TR": "müşteri"
+        },
+        {
+            "id": "800",
+            "ENG": "coal",
+            "TR": "kömür"
+        },
+        {
+            "id": "801",
+            "ENG": "comment",
+            "TR": "yorum"
+        },
+        {
+            "id": "802",
+            "ENG": "commerce",
+            "TR": "ticaret"
+        },
+        {
+            "id": "803",
+            "ENG": "commercial",
+            "TR": "reklam"
+        },
+        {
+            "id": "804",
+            "ENG": "community",
+            "TR": "cemiyet"
+        },
+        {
+            "id": "805",
+            "ENG": "competition",
+            "TR": "rekabet"
+        },
+        {
+            "id": "806",
+            "ENG": "complaint",
+            "TR": "şikayet"
+        },
+        {
+            "id": "807",
+            "ENG": "concentrate",
+            "TR": "konsantre olmak"
+        },
+        {
+            "id": "808",
+            "ENG": "condition",
+            "TR": "durum,koşul"
+        },
+        {
+            "id": "809",
+            "ENG": "confess",
+            "TR": "itirafta bulunmak"
+        },
+        {
+            "id": "810",
+            "ENG": "congratulate",
+            "TR": "tebrik etmek"
+        },
+        {
+            "id": "811",
+            "ENG": "congress",
+            "TR": "kongre,meclis"
+        },
+        {
+            "id": "812",
+            "ENG": "consider",
+            "TR": "göz önünde bulundurmak"
+        },
+        {
+            "id": "813",
+            "ENG": "construction",
+            "TR": "inşaat"
+        },
+        {
+            "id": "814",
+            "ENG": "consult",
+            "TR": "danışmak"
+        },
+        {
+            "id": "815",
+            "ENG": "contest",
+            "TR": "yarışma"
+        },
+        {
+            "id": "816",
+            "ENG": "contribute",
+            "TR": "katkıda bulunmak"
+        },
+        {
+            "id": "817",
+            "ENG": "convert",
+            "TR": "dönüştürmek"
+        },
+        {
+            "id": "818",
+            "ENG": "court",
+            "TR": "mahkeme"
+        },
+        {
+            "id": "819",
+            "ENG": "crossword",
+            "TR": "bulmaca"
+        },
+        {
+            "id": "820",
+            "ENG": "cruel",
+            "TR": "zalim"
+        },
+        {
+            "id": "821",
+            "ENG": "customs",
+            "TR": "gümrük,töre"
+        },
+        {
+            "id": "822",
+            "ENG": "dashboard",
+            "TR": "gösterge paneli"
+        },
+        {
+            "id": "823",
+            "ENG": "deadline",
+            "TR": "son tarih"
+        },
+        {
+            "id": "824",
+            "ENG": "deceive",
+            "TR": "aldatmak"
+        },
+        {
+            "id": "825",
+            "ENG": "declare",
+            "TR": "ilan etmek"
+        },
+        {
+            "id": "826",
+            "ENG": "define",
+            "TR": "tanımlamak"
+        },
+        {
+            "id": "827",
+            "ENG": "deflation",
+            "TR": "deflasyon,çökme"
+        },
+        {
+            "id": "828",
+            "ENG": "depend",
+            "TR": "dayanmak / bağlı olmak"
+        },
+        {
+            "id": "829",
+            "ENG": "desire",
+            "TR": "arzu etmek"
+        },
+        {
+            "id": "830",
+            "ENG": "devaluation",
+            "TR": "değer düşürme"
+        },
+        {
+            "id": "831",
+            "ENG": "diagnose",
+            "TR": "teşhis"
+        },
+        {
+            "id": "832",
+            "ENG": "disappear",
+            "TR": "ortadan kaybolmak"
+        },
+        {
+            "id": "833",
+            "ENG": "disappoint",
+            "TR": "hayal kırıklığına uğramak"
+        },
+        {
+            "id": "834",
+            "ENG": "distance",
+            "TR": "mesafe"
+        },
+        {
+            "id": "835",
+            "ENG": "distribution",
+            "TR": "dağıtım"
+        },
+        {
+            "id": "836",
+            "ENG": "dreadful",
+            "TR": "korkunç"
+        },
+        {
+            "id": "837",
+            "ENG": "eager",
+            "TR": "hevesli"
+        },
+        {
+            "id": "838",
+            "ENG": "election",
+            "TR": "seçim"
+        },
+        {
+            "id": "839",
+            "ENG": "embassy",
+            "TR": "büyükelçilik"
+        },
+        {
+            "id": "840",
+            "ENG": "encourage",
+            "TR": "teşvik etmek"
+        },
+        {
+            "id": "841",
+            "ENG": "enemy",
+            "TR": "düşman"
+        },
+        {
+            "id": "842",
+            "ENG": "enterprise",
+            "TR": "işletme,şirket"
+        },
+        {
+            "id": "843",
+            "ENG": "entrepreneur",
+            "TR": "girişimci,işletmeci"
+        },
+        {
+            "id": "844",
+            "ENG": "envy",
+            "TR": "imrenmek"
+        },
+        {
+            "id": "845",
+            "ENG": "essay",
+            "TR": "makale"
+        },
+        {
+            "id": "846",
+            "ENG": "establish",
+            "TR": "kurmak"
+        },
+        {
+            "id": "847",
+            "ENG": "estimate",
+            "TR": "tahmin etmek"
+        },
+        {
+            "id": "848",
+            "ENG": "evaluate",
+            "TR": "değerlendirmek"
+        },
+        {
+            "id": "849",
+            "ENG": "evidence",
+            "TR": "kanıt"
+        },
+        {
+            "id": "850",
+            "ENG": "exaggerate",
+            "TR": "abartmak"
+        },
+        {
+            "id": "851",
+            "ENG": "examine",
+            "TR": "gözden geçirmek"
+        },
+        {
+            "id": "852",
+            "ENG": "exchange rate",
+            "TR": "döviz kuru"
+        },
+        {
+            "id": "853",
+            "ENG": "exhibition",
+            "TR": "sergi"
+        },
+        {
+            "id": "854",
+            "ENG": "experiment",
+            "TR": "deney"
+        },
+        {
+            "id": "855",
+            "ENG": "fame",
+            "TR": "ün"
+        },
+        {
+            "id": "856",
+            "ENG": "fence",
+            "TR": "çit"
+        },
+        {
+            "id": "857",
+            "ENG": "fix",
+            "TR": "düzeltmek"
+        },
+        {
+            "id": "858",
+            "ENG": "fluent",
+            "TR": "akıcı"
+        },
+        {
+            "id": "859",
+            "ENG": "foolish",
+            "TR": "aptal"
+        },
+        {
+            "id": "860",
+            "ENG": "forecast",
+            "TR": "tahmin etmek"
+        },
+        {
+            "id": "861",
+            "ENG": "fragile",
+            "TR": "kırılgan"
+        },
+        {
+            "id": "862",
+            "ENG": "frame",
+            "TR": "çerçeve"
+        },
+        {
+            "id": "863",
+            "ENG": "franchise",
+            "TR": "imtiyaz,acentelik"
+        },
+        {
+            "id": "864",
+            "ENG": "frequent",
+            "TR": "sık"
+        },
+        {
+            "id": "865",
+            "ENG": "fund raising",
+            "TR": "para toplama"
+        },
+        {
+            "id": "866",
+            "ENG": "gamble",
+            "TR": "kumar oynamak"
+        },
+        {
+            "id": "867",
+            "ENG": "gear",
+            "TR": "vites"
+        },
+        {
+            "id": "868",
+            "ENG": "globalization",
+            "TR": "küreselleşme"
+        },
+        {
+            "id": "869",
+            "ENG": "government",
+            "TR": "hükümet"
+        },
+        {
+            "id": "870",
+            "ENG": "grateful",
+            "TR": "minnettar"
+        },
+        {
+            "id": "871",
+            "ENG": "growth rate",
+            "TR": "büyüme oranı"
+        },
+        {
+            "id": "872",
+            "ENG": "hair dryer",
+            "TR": "saç kurutucusu"
+        },
+        {
+            "id": "873",
+            "ENG": "harvest",
+            "TR": "hasat etmek"
+        },
+        {
+            "id": "874",
+            "ENG": "hesitate",
+            "TR": "tereddüt etmek"
+        },
+        {
+            "id": "875",
+            "ENG": "hire",
+            "TR": "kiralamak"
+        },
+        {
+            "id": "876",
+            "ENG": "hitch-hike",
+            "TR": "otostop yapmak"
+        },
+        {
+            "id": "877",
+            "ENG": "homesick",
+            "TR": "ev özlemi çeken"
+        },
+        {
+            "id": "878",
+            "ENG": "identification",
+            "TR": "kimlik"
+        },
+        {
+            "id": "879",
+            "ENG": "in advance",
+            "TR": "önceden"
+        },
+        {
+            "id": "880",
+            "ENG": "include",
+            "TR": "içermek"
+        },
+        {
+            "id": "881",
+            "ENG": "income",
+            "TR": "gelir"
+        },
+        {
+            "id": "882",
+            "ENG": "increase",
+            "TR": "artmak"
+        },
+        {
+            "id": "883",
+            "ENG": "independent",
+            "TR": "bağımsız"
+        },
+        {
+            "id": "884",
+            "ENG": "inflation",
+            "TR": "enflasyon"
+        },
+        {
+            "id": "885",
+            "ENG": "innocent",
+            "TR": "masum"
+        },
+        {
+            "id": "886",
+            "ENG": "inspection",
+            "TR": "muayene,inceleme"
+        },
+        {
+            "id": "887",
+            "ENG": "inspector",
+            "TR": "müfettiş"
+        },
+        {
+            "id": "888",
+            "ENG": "insurance",
+            "TR": "sigorta"
+        },
+        {
+            "id": "889",
+            "ENG": "interest rate",
+            "TR": "faiz oranı"
+        },
+        {
+            "id": "890",
+            "ENG": "invoice",
+            "TR": "fatura"
+        },
+        {
+            "id": "891",
+            "ENG": "judge",
+            "TR": "yargılamak"
+        },
+        {
+            "id": "892",
+            "ENG": "justice",
+            "TR": "adalet"
+        },
+        {
+            "id": "893",
+            "ENG": "kidnapping",
+            "TR": "adam kaçırma"
+        },
+        {
+            "id": "894",
+            "ENG": "knowledge",
+            "TR": "bilgi"
+        },
+        {
+            "id": "895",
+            "ENG": "labor force",
+            "TR": "iş gücü"
+        },
+        {
+            "id": "896",
+            "ENG": "landlord",
+            "TR": "ev sahibi"
+        },
+        {
+            "id": "897",
+            "ENG": "licence plate",
+            "TR": "plaka"
+        },
+        {
+            "id": "898",
+            "ENG": "life vest",
+            "TR": "can yeleği"
+        },
+        {
+            "id": "899",
+            "ENG": "loan",
+            "TR": "kredi"
+        },
+        {
+            "id": "900",
+            "ENG": "loan agreement",
+            "TR": "kredi sözleşmesi"
+        },
+        {
+            "id": "901",
+            "ENG": "magnificent",
+            "TR": "mükemmel"
+        },
+        {
+            "id": "902",
+            "ENG": "maintain",
+            "TR": "sürdürmek"
+        },
+        {
+            "id": "903",
+            "ENG": "market share",
+            "TR": "pazar payı"
+        },
+        {
+            "id": "904",
+            "ENG": "marketing research",
+            "TR": "pazar araştırması"
+        },
+        {
+            "id": "905",
+            "ENG": "marvellous",
+            "TR": "harikulade"
+        },
+        {
+            "id": "906",
+            "ENG": "massive",
+            "TR": "muazzam"
+        },
+        {
+            "id": "907",
+            "ENG": "member of parliament",
+            "TR": "milletvekili"
+        },
+        {
+            "id": "908",
+            "ENG": "mention",
+            "TR": "bahsetmek"
+        },
+        {
+            "id": "909",
+            "ENG": "merchandise",
+            "TR": "mal,eşya"
+        },
+        {
+            "id": "910",
+            "ENG": "nation",
+            "TR": "ulus"
+        },
+        {
+            "id": "911",
+            "ENG": "objective",
+            "TR": "amaç,hedef"
+        },
+        {
+            "id": "912",
+            "ENG": "observe",
+            "TR": "gözlemlemek"
+        },
+        {
+            "id": "913",
+            "ENG": "obvious",
+            "TR": "açık,bariz, ortada"
+        },
+        {
+            "id": "914",
+            "ENG": "opportunity",
+            "TR": "fırsat"
+        },
+        {
+            "id": "915",
+            "ENG": "participate",
+            "TR": "katılmak"
+        },
+        {
+            "id": "916",
+            "ENG": "patience",
+            "TR": "sabır"
+        },
+        {
+            "id": "917",
+            "ENG": "percentage",
+            "TR": "yüzde"
+        },
+        {
+            "id": "918",
+            "ENG": "persuade",
+            "TR": "ikna etmek"
+        },
+        {
+            "id": "919",
+            "ENG": "pollution",
+            "TR": "kirlilik"
+        },
+        {
+            "id": "920",
+            "ENG": "postpone",
+            "TR": "ertelemek"
+        },
+        {
+            "id": "921",
+            "ENG": "president",
+            "TR": "cumhurbaşkanı"
+        },
+        {
+            "id": "922",
+            "ENG": "price control",
+            "TR": "fiyat kontrolü"
+        },
+        {
+            "id": "923",
+            "ENG": "prison",
+            "TR": "hapishane"
+        },
+        {
+            "id": "924",
+            "ENG": "process",
+            "TR": "süreç"
+        },
+        {
+            "id": "925",
+            "ENG": "profit",
+            "TR": "kar"
+        },
+        {
+            "id": "926",
+            "ENG": "prohibit",
+            "TR": "yasaklamak"
+        },
+        {
+            "id": "927",
+            "ENG": "promotion",
+            "TR": "terfi"
+        },
+        {
+            "id": "928",
+            "ENG": "property",
+            "TR": "mülk"
+        },
+        {
+            "id": "929",
+            "ENG": "proposal",
+            "TR": "teklif"
+        },
+        {
+            "id": "930",
+            "ENG": "prove",
+            "TR": "kanıtlamak"
+        },
+        {
+            "id": "931",
+            "ENG": "publicity",
+            "TR": "tanıtma,reklam"
+        },
+        {
+            "id": "932",
+            "ENG": "punctual",
+            "TR": "dakik"
+        },
+        {
+            "id": "933",
+            "ENG": "punishment",
+            "TR": "ceza"
+        },
+        {
+            "id": "934",
+            "ENG": "quantity",
+            "TR": "miktar"
+        },
+        {
+            "id": "935",
+            "ENG": "quarrel",
+            "TR": "bozuşmak,çekişmek"
+        },
+        {
+            "id": "936",
+            "ENG": "queue",
+            "TR": "sıra / kuyruk"
+        },
+        {
+            "id": "937",
+            "ENG": "receipt",
+            "TR": "fatura"
+        },
+        {
+            "id": "938",
+            "ENG": "receive",
+            "TR": "almak,kabul etmek"
+        },
+        {
+            "id": "939",
+            "ENG": "recognize",
+            "TR": "tanımak"
+        },
+        {
+            "id": "940",
+            "ENG": "recommend",
+            "TR": "tavsiye etmek"
+        },
+        {
+            "id": "941",
+            "ENG": "reduce",
+            "TR": "azaltmak"
+        },
+        {
+            "id": "942",
+            "ENG": "regret",
+            "TR": "pişman olmak"
+        },
+        {
+            "id": "943",
+            "ENG": "reject",
+            "TR": "reddetmek"
+        },
+        {
+            "id": "944",
+            "ENG": "release",
+            "TR": "serbest bırakmak"
+        },
+        {
+            "id": "945",
+            "ENG": "religion",
+            "TR": "din"
+        },
+        {
+            "id": "946",
+            "ENG": "reluctant",
+            "TR": "gönülsüz"
+        },
+        {
+            "id": "947",
+            "ENG": "rely",
+            "TR": "güvenmek"
+        },
+        {
+            "id": "948",
+            "ENG": "represent",
+            "TR": "temsil etmek"
+        },
+        {
+            "id": "949",
+            "ENG": "request",
+            "TR": "rica etmek"
+        },
+        {
+            "id": "950",
+            "ENG": "resolution",
+            "TR": "karar"
+        },
+        {
+            "id": "951",
+            "ENG": "resource",
+            "TR": "kaynak"
+        },
+        {
+            "id": "952",
+            "ENG": "respect",
+            "TR": "saygı göstermek"
+        },
+        {
+            "id": "953",
+            "ENG": "respond",
+            "TR": "yanıt vermek"
+        },
+        {
+            "id": "954",
+            "ENG": "revenue",
+            "TR": "gelir,ciro"
+        },
+        {
+            "id": "955",
+            "ENG": "revise",
+            "TR": "gözden geçirmek"
+        },
+        {
+            "id": "956",
+            "ENG": "rub",
+            "TR": "ovalamak"
+        },
+        {
+            "id": "957",
+            "ENG": "sand",
+            "TR": "kum"
+        },
+        {
+            "id": "958",
+            "ENG": "schedule",
+            "TR": "program"
+        },
+        {
+            "id": "959",
+            "ENG": "science",
+            "TR": "bilim"
+        },
+        {
+            "id": "960",
+            "ENG": "seek",
+            "TR": "aramak"
+        },
+        {
+            "id": "961",
+            "ENG": "sense",
+            "TR": "his"
+        },
+        {
+            "id": "962",
+            "ENG": "shake",
+            "TR": "sallamak"
+        },
+        {
+            "id": "963",
+            "ENG": "share",
+            "TR": "paylaşmak,hisse"
+        },
+        {
+            "id": "964",
+            "ENG": "sink",
+            "TR": "batmak"
+        },
+        {
+            "id": "965",
+            "ENG": "skyscraper",
+            "TR": "gökdelen"
+        },
+        {
+            "id": "966",
+            "ENG": "steering wheel",
+            "TR": "direksiyon"
+        },
+        {
+            "id": "967",
+            "ENG": "strike",
+            "TR": "vurmak,grev"
+        },
+        {
+            "id": "968",
+            "ENG": "substitute",
+            "TR": "yedek"
+        },
+        {
+            "id": "969",
+            "ENG": "supplier",
+            "TR": "tedarikçi"
+        },
+        {
+            "id": "970",
+            "ENG": "suppose",
+            "TR": "farz etmek"
+        },
+        {
+            "id": "971",
+            "ENG": "swear",
+            "TR": "yemin etmek"
+        },
+        {
+            "id": "972",
+            "ENG": "take action",
+            "TR": "harekete geçmek"
+        },
+        {
+            "id": "973",
+            "ENG": "take advantage",
+            "TR": "istismar etmek"
+        },
+        {
+            "id": "974",
+            "ENG": "task",
+            "TR": "görev"
+        },
+        {
+            "id": "975",
+            "ENG": "tax",
+            "TR": "vergi"
+        },
+        {
+            "id": "976",
+            "ENG": "throat",
+            "TR": "boğaz"
+        },
+        {
+            "id": "977",
+            "ENG": "to book",
+            "TR": "rezervasyon yapmak"
+        },
+        {
+            "id": "978",
+            "ENG": "torture",
+            "TR": "işkence etmek"
+        },
+        {
+            "id": "979",
+            "ENG": "trademark",
+            "TR": "ticari marka"
+        },
+        {
+            "id": "980",
+            "ENG": "transmission",
+            "TR": "vites"
+        },
+        {
+            "id": "981",
+            "ENG": "transmit",
+            "TR": "ulaştırmak"
+        },
+        {
+            "id": "982",
+            "ENG": "treat",
+            "TR": "tedavi etmek,davranış"
+        },
+        {
+            "id": "983",
+            "ENG": "treatment",
+            "TR": "tedavi"
+        },
+        {
+            "id": "984",
+            "ENG": "trick",
+            "TR": "kandırmak,hile"
+        },
+        {
+            "id": "985",
+            "ENG": "underline",
+            "TR": "altını çizmek"
+        },
+        {
+            "id": "986",
+            "ENG": "unemployment",
+            "TR": "işsizlik"
+        },
+        {
+            "id": "987",
+            "ENG": "urgent",
+            "TR": "acil"
+        },
+        {
+            "id": "988",
+            "ENG": "Value Added Tax",
+            "TR": "katma değer vergisi"
+        },
+        {
+            "id": "989",
+            "ENG": "vat",
+            "TR": "tekne, fıçı"
+        },
+        {
+            "id": "990",
+            "ENG": "violent",
+            "TR": "şiddetli,sert"
+        },
+        {
+            "id": "991",
+            "ENG": "volunteer",
+            "TR": "gönüllü"
+        },
+        {
+            "id": "992",
+            "ENG": "warehouse",
+            "TR": "depo"
+        },
+        {
+            "id": "993",
+            "ENG": "wealthy",
+            "TR": "varlıklı"
+        },
+        {
+            "id": "994",
+            "ENG": "weapon",
+            "TR": "silah"
+        },
+        {
+            "id": "995",
+            "ENG": "whistle",
+            "TR": "ıslık çalmak"
+        },
+        {
+            "id": "996",
+            "ENG": "wholesale",
+            "TR": "toptan satış"
+        },
+        {
+            "id": "997",
+            "ENG": "witness",
+            "TR": "görgü tanığı"
+        },
+        {
+            "id": "998",
+            "ENG": "zip",
+            "TR": "fermuar"
+        }
+    ]
 }
