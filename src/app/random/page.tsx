@@ -31,15 +31,15 @@ const page = () => {
         setHidden(false);
         setRndIndex((Math.round(Math.random() * (words.length - ilearnedTotal))));
 
-        // if (nextIndex < words.length - ilearnedTotal) {
-        //     setNextIndex(rndIndex);
-        // }
-        if (nextIndex < words.length - ilearnedTotal) {
-            setNextIndex(prev => prev + 1);
+         if (nextIndex < words.length - ilearnedTotal) {
+            setNextIndex(rndIndex);
         }
+       // if (nextIndex < words.length - ilearnedTotal) {
+       //     setNextIndex(prev => prev + 1);
+     //   }
 
         else {
-            // setNextIndex(0);
+             setNextIndex(0);
             alert("The End");
         }
     }
